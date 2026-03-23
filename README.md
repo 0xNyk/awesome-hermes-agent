@@ -20,9 +20,9 @@ This list tracks the growing ecosystem around it.
 
 New to Hermes? Don't try to install everything at once. Here's the three-step path from zero to productive:
 
-1. **Get running** — Follow the [Official Docs quickstart](https://hermes-agent.nousresearch.com/docs/), or use [evey-setup](https://github.com/42-evey/evey-setup) to get the full stack running in minutes with free models and 29 plugins pre-configured.
-2. **Add your first skills** — Install [hermes-agent-skills](https://github.com/zenc-cp/hermes-agent-skills) — 28 general-purpose skills that cover the gaps the built-in skills don't reach. A safe, stable starting pack.
-3. **Make it yours** — Add [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) so Hermes starts auto-generating reusable skills from your actual workflows. This is where the learning loop kicks in.
+1. **Get running** — Follow the [Official Docs quickstart](https://hermes-agent.nousresearch.com/docs/). It covers installation, CLI, configuration, and your first conversation.
+2. **Add your first skills** — Install [wondelai/skills](https://github.com/wondelai/skills) (250+ stars, actively maintained) — a cross-platform skills library that works with Hermes and other agents. Or try [litprog-skill](https://github.com/tlehman/litprog-skill) (60+ stars) for literate programming across Claude Code, OpenCode, and Hermes.
+3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (200+ stars) — a web-based workspace with chat, terminal, memory browser, and skills manager.
 
 Once you're comfortable, explore the full list below. Every resource is tagged with a maturity level so you know what you're getting into:
 
@@ -76,17 +76,16 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Community Skills
 
-- **[production]** [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) - Goal management, inter-agent bridge, model selection, and cost control. Four plugins covering the most common operational needs. The inter-agent bridge is useful if you run multiple Hermes instances.
+- **[beta]** [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) - Goal management, inter-agent bridge, model selection, and cost control. Four plugins covering the most common operational needs. The inter-agent bridge is useful if you run multiple Hermes instances.
 - **[beta]** [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) by [Romanescu11](https://github.com/Romanescu11) - Meta-skill that auto-generates reusable skills from your workflows. Point it at a task you repeat and it creates a skill for it.
 - **[beta]** [litprog-skill](https://github.com/tlehman/litprog-skill) by [tlehman](https://github.com/tlehman) - Literate programming skill that works across Claude Code, OpenCode, and Hermes. Weaves code and prose into documented, executable notebooks.
 - **[experimental]** [Wizards-of-the-Ghosts](https://github.com/Hmbown/Wizards-of-the-Ghosts) by [Hmbown](https://github.com/Hmbown) - Fantasy spell-themed skill pack. Wraps real development operations (refactoring, linting, testing) in a tabletop RPG interface.
 - **[experimental]** [super-hermes](https://github.com/Cranot/super-hermes) by [Cranot](https://github.com/Cranot) - Teaches Hermes to write its own analytical prompts. Adds a meta-reasoning layer where the agent generates better prompts for itself before executing tasks.
 - **[experimental]** [hermes-life-os](https://github.com/Lethe044/hermes-life-os) by [Lethe044](https://github.com/Lethe044) - Personal OS agent that detects daily patterns and learns your routines over time. Uses Hermes's memory system for lifestyle tracking, not just code.
 - **[beta]** [hermes-incident-commander](https://github.com/Lethe044/hermes-incident-commander) by [Lethe044](https://github.com/Lethe044) - Autonomous SRE agent for production incident detection and self-healing. Monitors services, diagnoses failures, and applies fixes. Works well with Hermes's cron scheduling.
-- **[production]** [hermes-agent-skills](https://github.com/zenc-cp/hermes-agent-skills) by [zenc-cp](https://github.com/zenc-cp) - 28 general-purpose skills for autonomous AI agents. Good starting pack that covers common gaps in the built-in skill set.
 - **[beta]** [hermes-dojo](https://github.com/Yonkoo11/hermes-dojo) by [Yonkoo11](https://github.com/Yonkoo11) - Self-improvement system that monitors agent performance, identifies weak skills, and iterates on them automatically.
 - **[experimental]** [hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) by [Lethe044](https://github.com/Lethe044) - Agent that writes, tests, and publishes new skills autonomously. Automates the skill creation and distribution lifecycle.
-- **[beta]** [traction-skills](https://github.com/farosud/traction-skills) by [farosud](https://github.com/farosud) - 19 growth channel playbooks based on the Traction book. Covers SEO, content marketing, partnerships, and other acquisition channels as structured agent skills.
+
 
 ### agentskills.io Ecosystem
 
@@ -96,7 +95,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[production]** [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) - 734+ structured cybersecurity skills mapped to MITRE ATT&CK. The most comprehensive security skills collection available. 3.6k stars.
 - **[production]** [chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) by [Chainlink](https://github.com/smartcontractkit) - Official Chainlink agent skills on the agentskills.io spec. Oracle network data, CCIP, and smart contract interaction.
 - **[production]** [black-forest-labs/skills](https://github.com/black-forest-labs/skills) by [Black Forest Labs](https://github.com/black-forest-labs) - Official FLUX model skills for image generation. First-party skills from the FLUX creators.
-- **[beta]** [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) by [DougTrajano](https://github.com/DougTrajano) - Pydantic AI with agentskills.io support. Adds type-safe schema validation to agent skill inputs and outputs.
+- **[production]** [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) by [DougTrajano](https://github.com/DougTrajano) - Pydantic AI with agentskills.io support. Adds type-safe schema validation to agent skill inputs and outputs.
 - **[beta]** [cognify-skills](https://github.com/Yarmoluk/cognify-skills) by [Yarmoluk](https://github.com/Yarmoluk) - 19 business operations skills covering CRM, invoicing, and project management.
 - **[beta]** [execplan-skill](https://github.com/tiann/execplan-skill) by [tiann](https://github.com/tiann) - Manages complex, long-running task execution with proper lifecycle handling — progress tracking, checkpoints, and failure recovery.
 - **[beta]** [maestro](https://github.com/ReinaMacCredy/maestro) by [ReinaMacCredy](https://github.com/ReinaMacCredy) - Skill orchestration with Conductor planning and Beads tracking. Structures multi-step skill execution into observable pipelines.
@@ -107,12 +106,12 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Plugins
 
-- **[beta]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
-- **[production]** [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) - Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity.
-- **[production]** [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) - Professional-grade weather plugin with NWS model imagery, NEXRAD radar, and meteorological calculations.
+- **[experimental]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
+- **[beta]** [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) - Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity.
+- **[beta]** [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) - Professional-grade weather plugin with NWS model imagery, NEXRAD radar, and meteorological calculations.
 - **[experimental]** [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) - ML pipeline plugin for building training datasets from HRRR/GFS/ERA5 weather models. Companion to the weather plugin for building weather ML pipelines.
-- **[beta]** [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) by [anpicasso](https://github.com/anpicasso) - Switch browser tools between Chrome profiles via CDP. Useful for multi-account testing or browsing with different saved sessions.
-- **[beta]** [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) by [raulvidis](https://github.com/raulvidis) - Cloudflare browser rendering plugin. Headless browsing through Cloudflare's infrastructure instead of local browser automation.
+- **[experimental]** [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) by [anpicasso](https://github.com/anpicasso) - Switch browser tools between Chrome profiles via CDP. Useful for multi-account testing or browsing with different saved sessions.
+- **[experimental]** [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) by [raulvidis](https://github.com/raulvidis) - Cloudflare browser rendering plugin. Headless browsing through Cloudflare's infrastructure instead of local browser automation.
 - **[beta]** [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) by [42-evey](https://github.com/42-evey) - Claude Code plugin for bridging with Evey (hermes-agent). Lets Claude Code and Hermes share context and hand off tasks between each other.
 
 ### Skill Registries & Discovery
@@ -129,20 +128,20 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[production]** [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) - Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during the Nous Hackathon 2026.
 - **[experimental]** [hermes-neurovision](https://github.com/Tranquil-Flow/hermes-neurovision) by [Tranquil-Flow](https://github.com/Tranquil-Flow) - Terminal neurovisualizer with 42 animated themes. Decorative terminal overlays for agent activity.
 - **[beta]** [lintlang](https://github.com/roli-lpci/lintlang) by [roli-lpci](https://github.com/roli-lpci) - Static linter for AI agent configs and prompts with HERM v1.1 scoring. Catches config mistakes that silently degrade agent behavior.
-- **[production]** [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) by [0xrsydn](https://github.com/0xrsydn) - Nix package and NixOS module for Hermes. Fully reproducible deployments via Nix flakes.
-- **[production]** [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) by [0xNyk](https://github.com/0xNyk) - Migration tool from OpenClaw to Hermes. Handles settings, memories, skills, API keys, messaging configs, and workspace files.
+- **[beta]** [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) by [0xrsydn](https://github.com/0xrsydn) - Nix package and NixOS module for Hermes. Fully reproducible deployments via Nix flakes.
+- **[beta]** [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) by [0xNyk](https://github.com/0xNyk) - Migration tool from OpenClaw to Hermes. Handles settings, memories, skills, API keys, messaging configs, and workspace files.
 - **[experimental]** [vessel-browser](https://github.com/unmodeled-tyler/vessel-browser) by [unmodeled-tyler](https://github.com/unmodeled-tyler) - AI-native Linux browser with MCP control and autonomous browsing. Full browser built for agent use, not a headless wrapper.
 - **[beta]** [portable-hermes-agent](https://github.com/rookiemann/portable-hermes-agent) by [rookiemann](https://github.com/rookiemann) - Windows desktop app bundling 100 tools, GUI, local models, ComfyUI, and workflows in a single portable package.
 - **[beta]** [hermes-webui](https://github.com/sanchomuzax/hermes-webui) by [sanchomuzax](https://github.com/sanchomuzax) - Lightweight process monitoring and configuration dashboard. Simpler alternative to hermes-workspace, focused on ops.
-- **[production]** [evey-setup](https://github.com/42-evey/evey-setup) by [42-evey](https://github.com/42-evey) - One-command setup for the full hermes-agent stack with free models and 29 plugins. Opinionated defaults that cover most use cases.
+- **[beta]** [evey-setup](https://github.com/42-evey/evey-setup) by [42-evey](https://github.com/42-evey) - One-command setup for the full hermes-agent stack with free models and 29 plugins. Opinionated defaults that cover most use cases.
 - **[beta]** [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd) by [amanning3390](https://github.com/amanning3390) - Anticipatory memory for AI agents with RAG and vector search. Pre-fetches relevant context before queries hit the agent.
 
 ### Deployment
 
-- **[production]** [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) by [xmbshwll](https://github.com/xmbshwll) - Minimal Docker sandbox image for Hermes. Pull, run, done.
-- **[production]** [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) by [Crustocean](https://github.com/Crustocean) - Production-ready Docker image for cloud Hermes deployments on Crustocean. Infrastructure wiring pre-configured.
-- **[beta]** [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) by [ellickjohnson](https://github.com/ellickjohnson) - Docker Compose + Portainer + ttyd web terminal. Deploy Hermes and access it from any browser.
-- **[beta]** [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) by [JackTheGit](https://github.com/JackTheGit) - Headless Hermes deployment with systemd and cron on Linux servers. Runs unattended.
+- **[beta]** [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) by [xmbshwll](https://github.com/xmbshwll) - Minimal Docker sandbox image for Hermes. Pull, run, done.
+- **[beta]** [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) by [Crustocean](https://github.com/Crustocean) - Production-ready Docker image for cloud Hermes deployments on Crustocean. Infrastructure wiring pre-configured.
+- **[experimental]** [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) by [ellickjohnson](https://github.com/ellickjohnson) - Docker Compose + Portainer + ttyd web terminal. Deploy Hermes and access it from any browser.
+- **[experimental]** [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) by [JackTheGit](https://github.com/JackTheGit) - Headless Hermes deployment with systemd and cron on Linux servers. Runs unattended.
 
 <br>
 
@@ -155,9 +154,9 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [zouroboros-swarm-executors](https://github.com/marlandoj/zouroboros-swarm-executors) by [marlandoj](https://github.com/marlandoj) - Local executor bridge for Claude Code + Hermes integration. Enables task handoff between both agents.
 - **[beta]** [reina](https://github.com/Crustocean/reina) by [Crustocean](https://github.com/Crustocean) - Autonomous AI agent for the Crustocean platform. Deep integration of Hermes into Crustocean's product.
 - **[beta]** [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) by [Rainhoole](https://github.com/Rainhoole) - Multi-agent delegation skill bridging Hermes, Codex, and Claude Code. Routes subtasks to the best-suited agent automatically.
-- **[beta]** [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) by [gizdusum](https://github.com/gizdusum) - Solana blockchain intelligence MCP server. Provides on-chain analytics and wallet data to Hermes via MCP.
+- **[experimental]** [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) by [gizdusum](https://github.com/gizdusum) - Solana blockchain intelligence MCP server. Provides on-chain analytics and wallet data to Hermes via MCP.
 - **[experimental]** [hermes-council](https://github.com/Ridwannurudeen/hermes-council) by [Ridwannurudeen](https://github.com/Ridwannurudeen) - Adversarial multi-perspective council MCP server. Multiple AI viewpoints debate before the agent commits to a decision.
-- **[beta]** [NemoHermes](https://github.com/Hmbown/NemoHermes) by [Hmbown](https://github.com/Hmbown) - NVIDIA capability registry and Spark-aware routing layer. Routes compute-heavy tasks to available GPU infrastructure.
+- **[experimental]** [NemoHermes](https://github.com/Hmbown/NemoHermes) by [Hmbown](https://github.com/Hmbown) - NVIDIA capability registry and Spark-aware routing layer. Routes compute-heavy tasks to available GPU infrastructure.
 
 <br>
 
@@ -183,7 +182,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [job-scout-agent](https://github.com/Christabel337/job-scout-agent) by [Christabel337](https://github.com/Christabel337) - Autonomous job hunting agent. Searches listings, tracks applications, and manages the job search pipeline.
 - **[beta]** [hermes-ai-infrastructure-monitoring-toolkit](https://github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit) by [JackTheGit](https://github.com/JackTheGit) - Infrastructure monitoring, cost forecasting, and alerting via Telegram. Uses cron scheduling for continuous checks.
 - **[experimental]** [hermes-genesis](https://github.com/Ridwannurudeen/hermes-genesis) by [Ridwannurudeen](https://github.com/Ridwannurudeen) - Autonomous living world engine with procedural generation. Creates and maintains virtual worlds that grow in complexity over time.
-- **[beta]** [hermes-legal](https://github.com/Lethe044/hermes-legal) by [Lethe044](https://github.com/Lethe044) - Contract risk analysis with English and Turkish support. Identifies risky clauses and summarizes legal obligations.
+- **[experimental]** [hermes-legal](https://github.com/Lethe044/hermes-legal) by [Lethe044](https://github.com/Lethe044) - Contract risk analysis with English and Turkish support. Identifies risky clauses and summarizes legal obligations.
 - **[beta]** [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) by [dlkakbs](https://github.com/dlkakbs) - Generates investor-ready kits from startup ideas — market analysis, pitch deck, and financial projections.
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
@@ -195,7 +194,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 > Notable forks and derivative projects that take Hermes in new directions.
 
 - **[beta]** [hermes-agent-camel](https://github.com/nativ3ai/hermes-agent-camel) by [nativ3ai](https://github.com/nativ3ai) - Hermes with integrated CaMeL trust boundaries. Adds formal trust verification to the agent loop for safety-critical deployments.
-- **[beta]** [orahermes-agent](https://github.com/jasperan/orahermes-agent) by [jasperan](https://github.com/jasperan) - Oracle AI Agent Harness — OCI GenAI and Oracle 26ai integration. Enterprise on-ramp for Oracle environments.
+- **[experimental]** [orahermes-agent](https://github.com/jasperan/orahermes-agent) by [jasperan](https://github.com/jasperan) - Oracle AI Agent Harness — OCI GenAI and Oracle 26ai integration. Enterprise on-ramp for Oracle environments.
 - **[beta]** [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) by [kaminocorp](https://github.com/kaminocorp) - Cloud-deployed Hermes with pre-configured infrastructure templates. Skips local setup.
 - **[experimental]** [hermes-skill-distillation](https://github.com/beardthelion/hermes-skill-distillation) by [beardthelion](https://github.com/beardthelion) - Generates agentic training trajectories from real-world tasks. Hackathon project for producing fine-tuning data at scale.
 
@@ -205,7 +204,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 > Tutorials, documentation, and learning resources.
 
-- **[production]** [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) - Comprehensive community documentation for Hermes Agent. Covers v0.2.0 in detail, useful supplement to the official docs for deployment patterns.
+- **[beta]** [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) - Comprehensive community documentation for Hermes Agent. Covers v0.2.0 in detail, useful supplement to the official docs for deployment patterns.
 - **[production]** [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) by [metantonio](https://github.com/metantonio) - Step-by-step WSL2 Ubuntu setup instructions for running Hermes on Windows.
 - **[beta]** [HermesWiki](https://github.com/martymcenroe/HermesWiki) by [martymcenroe](https://github.com/martymcenroe) - Community-maintained wiki with practical patterns and deployment advice for building autonomous agents with Hermes.
 
