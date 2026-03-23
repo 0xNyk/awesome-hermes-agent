@@ -22,7 +22,7 @@ New to Hermes? Don't try to install everything at once. Here's the three-step pa
 
 1. **Get running** — Follow the [Official Docs quickstart](https://hermes-agent.nousresearch.com/docs/). It covers installation, CLI, configuration, and your first conversation.
 2. **Add your first skills** — Install [wondelai/skills](https://github.com/wondelai/skills) (250+ stars, actively maintained) — a cross-platform skills library that works with Hermes and other agents. Or try [litprog-skill](https://github.com/tlehman/litprog-skill) (60+ stars) for literate programming across Claude Code, OpenCode, and Hermes.
-3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (200+ stars) — a web-based workspace with chat, terminal, memory browser, and skills manager.
+3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (200+ stars) for a Hermes-native workspace with chat, terminal, and skills manager. Or use [mission-control](https://github.com/builderz-labs/mission-control) (3k+ stars) for a broader agent orchestration dashboard with fleet management, task dispatch, and cost tracking.
 
 Once you're comfortable, explore the full list below. Every resource is tagged with a maturity level so you know what you're getting into:
 
@@ -126,6 +126,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 > Applications, CLIs, and utilities built on top of or alongside Hermes Agent.
 
 - **[production]** [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) - Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during the Nous Hackathon 2026.
+- **[production]** [mission-control](https://github.com/builderz-labs/mission-control) by [builderz-labs](https://github.com/builderz-labs) - Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, SQLite-powered. 3k+ stars.
 - **[experimental]** [hermes-neurovision](https://github.com/Tranquil-Flow/hermes-neurovision) by [Tranquil-Flow](https://github.com/Tranquil-Flow) - Terminal neurovisualizer with 42 animated themes. Decorative terminal overlays for agent activity.
 - **[beta]** [lintlang](https://github.com/roli-lpci/lintlang) by [roli-lpci](https://github.com/roli-lpci) - Static linter for AI agent configs and prompts with HERM v1.1 scoring. Catches config mistakes that silently degrade agent behavior.
 - **[beta]** [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) by [0xrsydn](https://github.com/0xrsydn) - Nix package and NixOS module for Hermes. Fully reproducible deployments via Nix flakes.
