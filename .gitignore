@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.claude/
+CLAUDE.md
+.vscode/
+*.swp
+*.swo
+*~
