@@ -24,6 +24,12 @@ Resources should meet these criteria:
 4. **Not a duplicate** — Doesn't replicate something already on the list
 5. **Open source** — Source code is publicly available
 
+## Maturity Labels
+
+Every resource in the list is tagged with a maturity level: **production**, **beta**, or **experimental**. These are assigned by maintainers based on documentation quality, maintenance activity, and community adoption.
+
+If you think a label is wrong — maybe a project has matured since it was added, or something marked "production" has gone stale — [open an issue](https://github.com/0xNyk/awesome-hermes-agent/issues/new) and let us know. We'd rather update a label than have someone waste a weekend on something that isn't ready.
+
 ## Repository Suggestions
 
 For suggestions about the awesome-list itself (categories, formatting, structure), please [open an issue](https://github.com/0xNyk/awesome-hermes-agent/issues/new) describing the change.
