@@ -136,6 +136,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-webui](https://github.com/sanchomuzax/hermes-webui) by [sanchomuzax](https://github.com/sanchomuzax) - Lightweight process monitoring and configuration dashboard. Simpler alternative to hermes-workspace, focused on ops.
 - **[beta]** [evey-setup](https://github.com/42-evey/evey-setup) by [42-evey](https://github.com/42-evey) - One-command setup for the full hermes-agent stack with free models and 29 plugins. Opinionated defaults that cover most use cases.
 - **[beta]** [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd) by [amanning3390](https://github.com/amanning3390) - Anticipatory memory for AI agents with RAG and vector search. Pre-fetches relevant context before queries hit the agent.
+- **[production]** [mnemo](https://github.com/eleion-ai/mnemo) by [eleion-ai](https://github.com/eleion-ai) - Persistent semantic memory engine for AI agents. pgvector embeddings, user profiles, proactive predictions, dreaming pipeline (nightly consolidation), GDPR compliance, governance layer (Alfred/Arbitro). Provider-agnostic (Ollama, Bedrock, custom). 5K+ lines, MIT.
 
 ### Deployment
 
