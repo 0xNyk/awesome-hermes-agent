@@ -225,6 +225,19 @@ For suggestions about the repository itself, please [open an issue](https://gith
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
 
+
+---
+
+<div align="center">
+
+**Need agent infrastructure, trading systems, or Solana applications built for your team?**
+
+[Builderz](https://builderz.dev) ships production AI systems — 32+ products across 15 countries.
+
+[Get in touch](https://builderz.dev) | [@nyk_builderz](https://x.com/nyk_builderz)
+
+</div>
+
 ## License
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
