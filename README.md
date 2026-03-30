@@ -158,6 +158,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) by [gizdusum](https://github.com/gizdusum) - Solana blockchain intelligence MCP server. Provides on-chain analytics and wallet data to Hermes via MCP.
 - **[experimental]** [hermes-council](https://github.com/Ridwannurudeen/hermes-council) by [Ridwannurudeen](https://github.com/Ridwannurudeen) - Adversarial multi-perspective council MCP server. Multiple AI viewpoints debate before the agent commits to a decision.
 - **[experimental]** [NemoHermes](https://github.com/Hmbown/NemoHermes) by [Hmbown](https://github.com/Hmbown) - NVIDIA capability registry and Spark-aware routing layer. Routes compute-heavy tasks to available GPU infrastructure.
+- **[production]** [Hindsight](https://hindsight.vectorize.io) by [Vectorize](https://github.com/vectorize-io) - State-of-the-art long-term memory for AI agents. Open-source (MIT), fully self-hostable. Registers retain, recall, and reflect tools via the [Hermes plugin](https://hindsight.vectorize.io/integrations) or MCP. Replaces the built-in memory with semantic, graph, and temporal retrieval.
 
 <br>
 
