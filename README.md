@@ -14,6 +14,11 @@ Hermes Agent is the only agent with a built-in learning loop — it creates skil
 
 This list tracks the growing ecosystem around it.
 
+> Ecosystem status (last reviewed: 2026-04-03)
+> - Hermes Agent: [v0.6.0 (v2026.3.30)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.3.30)
+> - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (23k+ stars)
+> - Latest release notes: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
+
 ---
 
 ## Where Do I Start?
@@ -21,8 +26,8 @@ This list tracks the growing ecosystem around it.
 New to Hermes? Don't try to install everything at once. Here's the three-step path from zero to productive:
 
 1. **Get running** — Follow the [Official Docs quickstart](https://hermes-agent.nousresearch.com/docs/). It covers installation, CLI, configuration, and your first conversation.
-2. **Add your first skills** — Install [wondelai/skills](https://github.com/wondelai/skills) (250+ stars, actively maintained) — a cross-platform skills library that works with Hermes and other agents. Or try [litprog-skill](https://github.com/tlehman/litprog-skill) (60+ stars) for literate programming across Claude Code, OpenCode, and Hermes.
-3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (200+ stars) for a Hermes-native workspace with chat, terminal, and skills manager. Or use [mission-control](https://github.com/builderz-labs/mission-control) (3k+ stars) for a broader agent orchestration dashboard with fleet management, task dispatch, and cost tracking.
+2. **Add your first skills** — Install [wondelai/skills](https://github.com/wondelai/skills) (380+ stars, actively maintained) — a cross-platform skills library that works with Hermes and other agents. Or try [litprog-skill](https://github.com/tlehman/litprog-skill) (75+ stars) for literate programming across Claude Code, OpenCode, and Hermes.
+3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (500+ stars) for a Hermes-native workspace with chat, terminal, and skills manager. Or use [mission-control](https://github.com/builderz-labs/mission-control) (3.7k+ stars) for a broader agent orchestration dashboard with fleet management, task dispatch, and cost tracking.
 
 Once you're comfortable, explore the full list below. Every resource is tagged with a maturity level so you know what you're getting into:
 
@@ -50,6 +55,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - [Domain Applications](#domain-applications)
 - [Forks & Derivatives](#forks--derivatives)
 - [Guides & Documentation](#guides--documentation)
+- [Operational Playbooks](#operational-playbooks)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -59,11 +65,12 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 > Core repositories and resources maintained by Nous Research.
 
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com) - The core project. Self-improving AI agent with a closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal), six terminal backends, cron scheduling, and MCP integration. 10k+ stars. Includes automatic migration from OpenClaw.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com) - The core project. Self-improving AI agent with a closed learning loop, multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom), six terminal backends, cron scheduling, MCP integration, profiles (multi-instance), and fallback providers. 23k+ stars. Includes automatic migration from OpenClaw.
 - [autonovel](https://github.com/NousResearch/autonovel) by [Nous Research](https://nousresearch.com) - Autonomous novel-writing pipeline built on Hermes. Generates long-form manuscripts (100k+ words) end-to-end using the agent loop.
 - [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) by [Nous Research](https://nousresearch.com) - Run Hermes as a managed employee in Paperclip companies. Connects the agent to Paperclip's task management and governance system.
 - [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) by [Nous Research](https://nousresearch.com) - Evolutionary self-improvement using DSPy and GEPA (Genetic Evolution of Prompt Architectures). The research pipeline for optimizing Hermes's own prompts and behaviors.
-- [Official Documentation](https://hermes-agent.nousresearch.com/docs/) - Comprehensive docs covering quickstart, CLI, configuration, messaging gateway, security, tools, skills, memory, MCP, cron, and architecture.
+- [Official Documentation](https://hermes-agent.nousresearch.com/docs/) - Comprehensive docs covering quickstart, CLI, configuration, messaging gateway, security, tools, skills, memory, MCP, cron, ACP, API server, and architecture.
+- [Release Notes](https://github.com/NousResearch/hermes-agent/releases) - Official changelog with feature highlights, migration notes, and reliability fixes for each Hermes version.
 - [tinker-atropos](https://github.com/NousResearch/tinker-atropos) by [Nous Research](https://nousresearch.com) - Standalone Atropos integration with Thinking Machines Tinker API. RL training infrastructure for fine-tuning tool-calling models on real agent trajectories.
 - [Skills Hub](https://agentskills.io) - The open standard for agent skills. Compatible across Hermes, Claude Code, Cursor, Codex, and other agents.
 - [Discord](https://discord.gg/NousResearch) - The Nous Research community. Bug reports, feature requests, and general discussion.
@@ -92,7 +99,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 > Skills built on the [agentskills.io](https://agentskills.io) open standard — compatible across Hermes and other agent platforms.
 
 - **[production]** [wondelai/skills](https://github.com/wondelai/skills) by [wondelai](https://github.com/wondelai) - Cross-platform agent skills for Claude Code and agentskills.io-compatible platforms.
-- **[production]** [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) - 734+ structured cybersecurity skills mapped to MITRE ATT&CK. The most comprehensive security skills collection available. 3.6k stars.
+- **[production]** [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) by [mukul975](https://github.com/mukul975) - 753+ structured cybersecurity skills mapped to MITRE ATT&CK. The most comprehensive security skills collection available. 4k+ stars.
 - **[production]** [chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) by [Chainlink](https://github.com/smartcontractkit) - Official Chainlink agent skills on the agentskills.io spec. Oracle network data, CCIP, and smart contract interaction.
 - **[production]** [black-forest-labs/skills](https://github.com/black-forest-labs/skills) by [Black Forest Labs](https://github.com/black-forest-labs) - Official FLUX model skills for image generation. First-party skills from the FLUX creators.
 - **[production]** [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) by [DougTrajano](https://github.com/DougTrajano) - Pydantic AI with agentskills.io support. Adds type-safe schema validation to agent skill inputs and outputs.
@@ -106,6 +113,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Plugins
 
+- **[beta]** [plur](https://github.com/plur-ai/plur) by [plur-ai](https://github.com/plur-ai) - Shared memory layer for AI agents with open engram format (YAML). Useful for persistent learning patterns in Hermes workflows.
 - **[experimental]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
 - **[beta]** [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) - Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity.
 - **[beta]** [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) by [FahrenheitResearch](https://github.com/FahrenheitResearch) - Professional-grade weather plugin with NWS model imagery, NEXRAD radar, and meteorological calculations.
@@ -126,7 +134,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 > Applications, CLIs, and utilities built on top of or alongside Hermes Agent.
 
 - **[production]** [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) - Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during the Nous Hackathon 2026.
-- **[production]** [mission-control](https://github.com/builderz-labs/mission-control) by [builderz-labs](https://github.com/builderz-labs) - Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, SQLite-powered. 3k+ stars.
+- **[production]** [mission-control](https://github.com/builderz-labs/mission-control) by [builderz-labs](https://github.com/builderz-labs) - Open-source dashboard for AI agent orchestration. Manage agent fleets, dispatch tasks, track costs, and coordinate multi-agent workflows. Self-hosted, SQLite-powered. 3.7k+ stars.
 - **[experimental]** [hermes-neurovision](https://github.com/Tranquil-Flow/hermes-neurovision) by [Tranquil-Flow](https://github.com/Tranquil-Flow) - Terminal neurovisualizer with 42 animated themes. Decorative terminal overlays for agent activity.
 - **[beta]** [lintlang](https://github.com/roli-lpci/lintlang) by [roli-lpci](https://github.com/roli-lpci) - Static linter for AI agent configs and prompts with HERM v1.1 scoring. Catches config mistakes that silently degrade agent behavior.
 - **[beta]** [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) by [0xrsydn](https://github.com/0xrsydn) - Nix package and NixOS module for Hermes. Fully reproducible deployments via Nix flakes.
@@ -152,6 +160,8 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 - **[beta]** [hermes-android](https://github.com/raulvidis/hermes-android) by [raulvidis](https://github.com/raulvidis) - Android device bridge with a full Python toolset. Lets Hermes interact with and control Android devices.
 - **[beta]** [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) by [teknium1](https://github.com/teknium1) - Bridge to Miniverse pixel worlds. By a Nous Research co-founder.
+- **[production]** [hindsight](https://github.com/vectorize-io/hindsight) by [Vectorize](https://github.com/vectorize-io) - Long-term memory layer for agents with retain/recall/reflect workflows. Integrates with Hermes via plugin or MCP and supports semantic, graph, and temporal retrieval.
+- **[beta]** [honcho-self-hosted](https://github.com/elkimek/honcho-self-hosted) by [elkimek](https://github.com/elkimek) - Self-hosted Honcho memory backend setup for Hermes. Useful when you need stronger cross-session memory behavior with local control.
 - **[experimental]** [zouroboros-swarm-executors](https://github.com/marlandoj/zouroboros-swarm-executors) by [marlandoj](https://github.com/marlandoj) - Local executor bridge for Claude Code + Hermes integration. Enables task handoff between both agents.
 - **[beta]** [reina](https://github.com/Crustocean/reina) by [Crustocean](https://github.com/Crustocean) - Autonomous AI agent for the Crustocean platform. Deep integration of Hermes into Crustocean's product.
 - **[beta]** [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) by [Rainhoole](https://github.com/Rainhoole) - Multi-agent delegation skill bridging Hermes, Codex, and Claude Code. Routes subtasks to the best-suited agent automatically.
@@ -208,6 +218,18 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) by [mudrii](https://github.com/mudrii) - Comprehensive community documentation for Hermes Agent. Covers v0.2.0 in detail, useful supplement to the official docs for deployment patterns.
 - **[production]** [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) by [metantonio](https://github.com/metantonio) - Step-by-step WSL2 Ubuntu setup instructions for running Hermes on Windows.
 - **[beta]** [HermesWiki](https://github.com/martymcenroe/HermesWiki) by [martymcenroe](https://github.com/martymcenroe) - Community-maintained wiki with practical patterns and deployment advice for building autonomous agents with Hermes.
+
+---
+
+## Operational Playbooks
+
+> Practical workflow patterns that repeatedly help Hermes teams in production.
+
+- **Nightly self-evolution + guardrail evaluation** — Run [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) on a schedule, then run a second verification cron to score quality and block optimization-loop gaming.
+- **Memory pressure handling with Honcho/Hindsight** — If you are repeating context or losing long-term recall, review [Honcho Memory docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/honcho), and evaluate [hindsight](https://github.com/vectorize-io/hindsight) or self-hosted memory backends.
+- **Tune session timeout/expiry early** — Use [configuration docs](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/) to adjust session retention for slower-moving threads so context is kept when needed.
+- **OpenClaw side-by-side migration** — Keep both systems running during migration using [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) and native Hermes migration paths, then cut over once cron and routing behavior match.
+- **Curate USER.md and MEMORY.md intentionally** — Treat profile memory as high-signal infrastructure. Keep entries concise, durable, and preference-focused instead of dumping raw notes.
 
 ---
 
