@@ -23,6 +23,8 @@ Resources should meet these criteria:
 3. **Functional** — Actually works (or is clearly labeled as experimental/WIP)
 4. **Not a duplicate** — Doesn't replicate something already on the list
 5. **Open source** — Source code is publicly available
+6. **Maintained** — Prefer projects with recent activity (or clearly foundational projects that still matter)
+7. **Why now** — Include one sentence on why this resource matters for current Hermes users, not just in general
 
 ## Maturity Labels
 
