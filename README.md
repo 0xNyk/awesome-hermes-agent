@@ -126,6 +126,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 - **[beta]** [hermeshub](https://github.com/amanning3390/hermeshub) by [amanning3390](https://github.com/amanning3390) - Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing.
 - **[production]** [skilldock.io](https://github.com/chigwell/skilldock.io) by [chigwell](https://github.com/chigwell) - Registry of reusable AI skills compatible with OpenClaw, Claude Code, and Hermes. Established cross-platform skills marketplace with an active catalog.
+- **[production]** [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for discovering, sharing, and distributing AI skills and personas built on OpenClaw. Browse, share, and sell community-built AI agent capabilities.
 
 <br>
 
