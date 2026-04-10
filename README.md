@@ -109,6 +109,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [bmad-module-skill-forge](https://github.com/armelhbobdad/bmad-module-skill-forge) by [armelhbobdad](https://github.com/armelhbobdad) - Transforms repos and docs into agentskills.io-compliant skills. Input a codebase, output installable skills.
 - **[beta]** [Agentic-MCP-Skill](https://github.com/cablate/Agentic-MCP-Skill) by [cablate](https://github.com/cablate) - MCP client with agentskills.io validation. Bridges MCP tool servers with the skills standard.
 - **[experimental]** [ripley-xmr-gateway](https://github.com/KYC-rip/ripley-xmr-gateway) by [KYC-rip](https://github.com/KYC-rip) - Monero (XMR) blockchain gateway for agents. Enables private cryptocurrency transactions from agent workflows.
+- **[beta]** [exfer](https://github.com/ahuman-exfer/exfer) by [ahuman-exfer](https://github.com/ahuman-exfer) - Proof-of-work blockchain for autonomous machine-to-machine commerce. Agents can send payments, create HTLCs, mine blocks, and earn EXFER by solving tasks via a built-in [task server](http://82.221.100.201:8080/api/v1/tasks). [Skill reference](https://exfer.org/SKILL.html).
 - **[beta]** [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) - C# implementation of agentskills.io with MCP integration. .NET alternative to the Python/TypeScript SDKs.
 
 ### Plugins
