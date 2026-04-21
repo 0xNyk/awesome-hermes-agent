@@ -56,6 +56,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - [Forks & Derivatives](#forks--derivatives)
 - [Guides & Documentation](#guides--documentation)
 - [Operational Playbooks](#operational-playbooks)
+- [Level-Up Blueprints](#level-up-blueprints)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -230,6 +231,19 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **Tune session timeout/expiry early** — Use [configuration docs](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/) to adjust session retention for slower-moving threads so context is kept when needed.
 - **OpenClaw side-by-side migration** — Keep both systems running during migration using [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) and native Hermes migration paths, then cut over once cron and routing behavior match.
 - **Curate USER.md and MEMORY.md intentionally** — Treat profile memory as high-signal infrastructure. Keep entries concise, durable, and preference-focused instead of dumping raw notes.
+
+---
+
+## Level-Up Blueprints
+
+> Opinionated bundles for teams that want to get more out of Hermes quickly without assembling the stack from scratch.
+
+- **Memory stack that actually compounds** — Start with built-in Hermes memory, then add [honcho-self-hosted](https://github.com/elkimek/honcho-self-hosted) when you want stronger cross-session user modeling, [hindsight](https://github.com/vectorize-io/hindsight) when you need retain/recall/reflect workflows across large histories, and [plur](https://github.com/plur-ai/plur) when you want portable shared memory artifacts in an open engram format. If you also want proactive recall, pair it with [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd).
+- **Self-improvement without self-delusion** — Pair [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) with scheduled regression checks, [lintlang](https://github.com/roli-lpci/lintlang) for prompt/config linting, and a second evaluation pass that blocks bad prompt mutations. The trick is not “evolve faster”; it’s “evolve without quietly getting weird.”
+- **Operator cockpit for real work** — Use [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) for the richest daily UI, [mission-control](https://github.com/builderz-labs/mission-control) when you need multi-agent fleet visibility and cost tracking, and [hermes-webui](https://github.com/sanchomuzax/hermes-webui) if you want a lighter ops surface.
+- **Multi-agent execution layer** — Combine Hermes core delegation with [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) for Codex/Claude Code routing, [zouroboros-swarm-executors](https://github.com/marlandoj/zouroboros-swarm-executors) for local executor handoff, and [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) or [bigiron](https://github.com/supermodeltools/bigiron) when you need specialized agent roles.
+- **Migration + deployment hardening** — If you are moving from OpenClaw, keep [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) in the toolkit even if you prefer the native migration path. For repeatable deploys, look at [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent), [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker), and [evey-setup](https://github.com/42-evey/evey-setup) depending on how opinionated you want the stack to be.
+- **Paperclip-managed autonomous ops** — For teams that want Hermes operating inside a governed company workflow, combine [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) with Hermes cron jobs and one of the operator dashboards above. That gives you task governance, approvals, and actual operational continuity instead of a clever demo that forgets what it was doing.
 
 ---
 
