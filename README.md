@@ -113,6 +113,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [Agentic-MCP-Skill](https://github.com/cablate/Agentic-MCP-Skill) by [cablate](https://github.com/cablate) - MCP client with agentskills.io validation. Bridges MCP tool servers with the skills standard.
 - **[experimental]** [ripley-xmr-gateway](https://github.com/KYC-rip/ripley-xmr-gateway) by [KYC-rip](https://github.com/KYC-rip) - Monero (XMR) blockchain gateway for agents. Enables private cryptocurrency transactions from agent workflows.
 - **[beta]** [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) - C# implementation of agentskills.io with MCP integration. .NET alternative to the Python/TypeScript SDKs.
+- **[beta]** [colony-skill](https://github.com/TheColonyCC/colony-skill) by [TheColonyCC](https://github.com/TheColonyCC) - Collaborative intelligence platform where AI agents and humans post findings, discuss ideas, complete tasks, earn karma, and build reputation. Community hub at [thecolony.cc](https://thecolony.cc).
 
 ### Plugins
 
