@@ -14,8 +14,8 @@ Hermes Agent is the only agent with a built-in learning loop — it creates skil
 
 This list tracks the growing ecosystem around it.
 
-> Ecosystem status (last reviewed: 2026-04-03)
-> - Hermes Agent: [v0.6.0 (v2026.3.30)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.3.30)
+> Ecosystem status (last reviewed: 2026-04-21)
+> - Hermes Agent: [v0.10.0 (v2026.4.16)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.16)
 > - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (23k+ stars)
 > - Latest release notes: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
 
@@ -51,6 +51,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - [Tools & Utilities](#tools--utilities)
   - [Deployment](#deployment)
 - [Integrations & Bridges](#integrations--bridges)
+- [Detection & Media Forensics](#detection--media-forensics)
 - [Multi-Agent & Swarms](#multi-agent--swarms)
 - [Domain Applications](#domain-applications)
 - [Forks & Derivatives](#forks--derivatives)
@@ -93,6 +94,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [acca-tracker](https://github.com/svenmedina07-ship-it/skills/tree/main/acca-tracker) by [Banozz](https://github.com/svenmedina07-ship-it) - Track multi-sport accumulator betting slips (football, basketball, tennis) via live score monitoring. Auto-detects sport per leg, 30+ bet types, scripts/scores.sh helper with TheSportsDB + ESPN fallback (NBA, WNBA, NCAA). 15-minute cron reports with per-leg status and acca health.
 - **[beta]** [hermes-incident-commander](https://github.com/Lethe044/hermes-incident-commander) by [Lethe044](https://github.com/Lethe044) - Autonomous SRE agent for production incident detection and self-healing. Monitors services, diagnoses failures, and applies fixes. Works well with Hermes's cron scheduling.
 - **[beta]** [hermes-dojo](https://github.com/Yonkoo11/hermes-dojo) by [Yonkoo11](https://github.com/Yonkoo11) - Self-improvement system that monitors agent performance, identifies weak skills, and iterates on them automatically.
+- **[beta]** [hermes-spotify-skill](https://github.com/Alexeyisme/hermes-spotify-skill) by [Alexeyisme](https://github.com/Alexeyisme) - Spotify playback control for headless Linux and Raspberry Pi 4/5. Search, play, pause, skip, set volume, transfer between Spotify Connect devices. No daemon — Hermes writes spotipy snippets and runs them via `execute_code`. Works with raspotify for Pi-as-speaker. Tested on Raspberry Pi OS Lite Bookworm 64-bit. The only Linux-native Spotify skill in the ecosystem.
 - **[experimental]** [hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) by [Lethe044](https://github.com/Lethe044) - Agent that writes, tests, and publishes new skills autonomously. Automates the skill creation and distribution lifecycle.
 - **[experimental]** [personal-api](https://github.com/beiyuii/personal-api-skill) by [beiyuii](https://github.com/beiyuii) - Turn your Obsidian vault into an identity layer any AI agent can read in under 30 seconds
 
@@ -114,6 +116,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [ripley-xmr-gateway](https://github.com/KYC-rip/ripley-xmr-gateway) by [KYC-rip](https://github.com/KYC-rip) - Monero (XMR) blockchain gateway for agents. Enables private cryptocurrency transactions from agent workflows.
 - **[beta]** [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) - C# implementation of agentskills.io with MCP integration. .NET alternative to the Python/TypeScript SDKs.
 - **[beta]** [colony-skill](https://github.com/TheColonyCC/colony-skill) by [TheColonyCC](https://github.com/TheColonyCC) - Collaborative intelligence platform where AI agents and humans post findings, discuss ideas, complete tasks, earn karma, and build reputation. Community hub at [thecolony.cc](https://thecolony.cc).
+- **[beta]** [AgentCash](https://github.com/Merit-Systems/agentcash-skills) by [Merit-Systems](https://github.com/Merit-Systems) - Skill giving agents access to 300+ premium APIs and a wallet balance to pay for them through x402 or MPP. A fresh Hermes install with only AgentCash is actually powerful — from web scraping to image generation to email sending, all through one skill with free USDC for trying out.
 
 ### Plugins
 
@@ -125,6 +128,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) by [anpicasso](https://github.com/anpicasso) - Switch browser tools between Chrome profiles via CDP. Useful for multi-account testing or browsing with different saved sessions.
 - **[experimental]** [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) by [raulvidis](https://github.com/raulvidis) - Cloudflare browser rendering plugin. Headless browsing through Cloudflare's infrastructure instead of local browser automation.
 - **[beta]** [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) by [42-evey](https://github.com/42-evey) - Claude Code plugin for bridging with Evey (hermes-agent). Lets Claude Code and Hermes share context and hand off tasks between each other.
+- **[beta]** [rtk-hermes](https://github.com/ogallotti/rtk-hermes) by [ogallotti](https://github.com/ogallotti) - Plugin that intercepts shell commands via `pre_tool_call` and rewrites output through [RTK](https://github.com/rtk-ai/rtk), compressing terminal output before it reaches the LLM context window. 60-90% token reduction on shell commands, 96.6% efficiency across 11M+ tokens processed. Zero config — auto-loads on gateway boot. Real benchmarks: `cargo test` 90-99%, `git log --stat` 87%, `ls -la` 78%.
 
 ### Skill Registries & Discovery
 
@@ -151,6 +155,9 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-webui](https://github.com/sanchomuzax/hermes-webui) by [sanchomuzax](https://github.com/sanchomuzax) - Lightweight process monitoring and configuration dashboard. Simpler alternative to hermes-workspace, focused on ops.
 - **[beta]** [evey-setup](https://github.com/42-evey/evey-setup) by [42-evey](https://github.com/42-evey) - One-command setup for the full hermes-agent stack with free models and 29 plugins. Opinionated defaults that cover most use cases.
 - **[beta]** [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd) by [amanning3390](https://github.com/amanning3390) - Anticipatory memory for AI agents with RAG and vector search. Pre-fetches relevant context before queries hit the agent.
+- **[beta]** [mnemo-hermes](https://github.com/eleion-ai/mnemo-hermes) by [hernanqwz](https://github.com/hernanqwz) / [Eleion AI](https://github.com/eleion-ai) - Semantic memory plugin adding pgvector vector search to Hermes's built-in FTS5 memory. 5 tools (`mnemo_remember`, `mnemo_recall`, `mnemo_learn`, `mnemo_predict`, `mnemo_profile`) + `on_session_start` hook for auto-context loading. Runs entirely local via Ollama, no API keys needed. MIT licensed.
+- **[production]** [SkillClaw](https://github.com/AMAP-ML/SkillClaw) by [AMAP-ML](https://github.com/AMAP-ML) - Open-source companion that auto-evolves, deduplicates, and improves your skill library from real session data. Adds a post-task evolution loop on top of Hermes's built-in skill creation. Native Hermes integration via `~/.hermes/skills`, safety flows (`skillclaw doctor hermes` / `skillclaw restore hermes`). Works across multiple devices and isolated skill silos. 705 stars, MIT licensed, active through 2026-04-17.
+- **[production]** [Clarvia](https://github.com/clarvia-project/scanner) by [clarvia-project](https://github.com/clarvia-project) - AEO (Agent Experience Optimization) scoring for MCP tools. Analyzes 15,400+ indexed MCP servers for agent-friendliness. REST API + MCP server so agents can evaluate tools from within their own loops. Use `GET /v1/score?url=` to score any MCP server or `GET /v1/search?q=` to find agent-ready tools by topic.
 
 ### Deployment
 
@@ -177,6 +184,17 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [hermes-council](https://github.com/Ridwannurudeen/hermes-council) by [Ridwannurudeen](https://github.com/Ridwannurudeen) - Adversarial multi-perspective council MCP server. Multiple AI viewpoints debate before the agent commits to a decision.
 - **[production]** [Not Human Search](https://github.com/unitedideas/nothumansearch-mcp) by [unitedideas](https://github.com/unitedideas) - MCP server for discovering other MCP servers. Indexes 8,600+ agent-friendly sites with agentic scoring, category filters, and live JSON-RPC verification. Wire it into Hermes via MCP to let the agent find and evaluate new tools to integrate on its own. Live at [nothumansearch.ai](https://nothumansearch.ai).
 - **[experimental]** [NemoHermes](https://github.com/Hmbown/NemoHermes) by [Hmbown](https://github.com/Hmbown) - NVIDIA capability registry and Spark-aware routing layer. Routes compute-heavy tasks to available GPU infrastructure.
+- **[beta]** [microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill) by [Andrew-Girgis](https://github.com/Andrew-Girgis) - Full Outlook/Hotmail/Microsoft 365 integration via Microsoft Graph API. Email, calendar, contacts, user profile, and free/busy scheduling. OAuth2 with auto-refresh. Includes preview-before-send pattern that prevents shell `$` variable mangling — a real pain point when agents compose emails with dollar amounts.
+- **[beta]** [agent-android](https://github.com/aivanelabs/ai-rpa/tree/main/skills/agent-android) by [AIVane Labs](https://github.com/aivanelabs) - LAN-first Android control for Hermes over WiFi — no USB, ADB, or root required once the AIVane service is running. Supports health checks, app listing/launching, UI tree inspection, taps, text input, swipes, navigation, screenshots, and inspect→act→smoke flows. Explicit safety boundaries: only connects to user-provided device URLs.
+- **[beta]** [clawsocial-hermes-plugin](https://github.com/mrpeter2025/clawsocial-hermes-plugin) by [mrpeter2025](https://github.com/mrpeter2025) - Social discovery network plugin — helps users find and connect with people sharing their interests through their Hermes agent. Features semantic interest matching, real-time WebSocket messaging, shareable profile cards, local and web inbox, and 4 notification modes. All actions require explicit user request. Bilingual (English + Chinese), compatible with OpenClaw version.
+
+<br>
+
+## Detection & Media Forensics
+
+> Skills for verifying whether incoming media is real or AI-generated — essential for agents that ingest user-submitted audio, images, video, or text.
+
+- **[beta]** [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) by [resemble-ai](https://github.com/resemble-ai) - Deepfake detection and media safety for agents. Detects AI-generated audio, images, video, and text; traces audio source (ElevenLabs, Resemble, etc.); applies invisible watermarks for provenance tracking; verifies speaker identity (Beta). Powered by [Resemble AI](https://resemble.ai). Core principle: never declare media real or fake without a completed detection result.
 
 <br>
 
