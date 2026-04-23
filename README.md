@@ -99,6 +99,8 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [personal-api](https://github.com/beiyuii/personal-api-skill) by [beiyuii](https://github.com/beiyuii) - Turn your Obsidian vault into an identity layer any AI agent can read in under 30 seconds
 
 
+- **[beta]** [proxyclaw-hermes-skill](https://github.com/Iploop/proxyclaw-hermes-skill) by [IPLoop](https://proxyclaw.ai) - Residential proxy routing for all Hermes web tools. Routes `web_search`, `web_extract`, `web_crawl`, browser tools, and Scrapling through real device IPs in 100+ countries. Beats Cloudflare and datacenter IP blocks that stop VPS-hosted agents cold. One API key, free 500MB tier.
+
 ### agentskills.io Ecosystem
 
 > Skills built on the [agentskills.io](https://agentskills.io) open standard — compatible across Hermes and other agent platforms.
