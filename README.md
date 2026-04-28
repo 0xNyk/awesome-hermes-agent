@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/0xnyk-awesome-hermes-agent-badge.png)](https://mseep.ai/app/0xnyk-awesome-hermes-agent)
+
 <p align="center">
   <picture>
     <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Awesome Hermes Agent" width="600">
