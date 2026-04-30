@@ -201,6 +201,9 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ## Multi-Agent & Swarms
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) — 🤖 AI 监控 AI。全球首个由 AI 自身驱动开发的 Agent 监控系统。Vue3 前端 + Node.js 后端，开箱即用，Demo → http://47.109.47.116/ ![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor-frontend/main/Openclaw%20Monitor.jpg)
+
+
 > Frameworks and tools for running multiple Hermes agents, or Hermes alongside other agents.
 
 - **[experimental]** [Ankh.md](https://github.com/Abruptive/Ankh.md) by [Abruptive](https://github.com/Abruptive) - TAW Agent x Hermes multi-agent swarm framework. Coordinates multiple agents with shared goals and distributed task execution.
