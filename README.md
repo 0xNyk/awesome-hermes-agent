@@ -131,6 +131,8 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [agent-analytics-hermes-plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) by [Agent-Analytics](https://github.com/Agent-Analytics) - Native Signals dashboard tab for Hermes with read-only multi-project analytics, explicit timeframe, and theme-aware UI.
 - **[beta]** [rtk-hermes](https://github.com/ogallotti/rtk-hermes) by [ogallotti](https://github.com/ogallotti) - Plugin that intercepts shell commands via `pre_tool_call` and rewrites output through [RTK](https://github.com/rtk-ai/rtk), compressing terminal output before it reaches the LLM context window. 60-90% token reduction on shell commands, 96.6% efficiency across 11M+ tokens processed. Zero config — auto-loads on gateway boot. Real benchmarks: `cargo test` 90-99%, `git log --stat` 87%, `ls -la` 78%.
 
+- **[beta]** [hermes-botcoin](https://github.com/botcoinmoney/hermes-botcoin) by      
+
 ### Skill Registries & Discovery
 
 - **[beta]** [hermeshub](https://github.com/amanning3390/hermeshub) by [amanning3390](https://github.com/amanning3390) - Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing.
