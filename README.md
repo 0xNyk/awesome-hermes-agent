@@ -117,6 +117,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [skillsdotnet](https://github.com/PederHP/skillsdotnet) by [PederHP](https://github.com/PederHP) - C# implementation of agentskills.io with MCP integration. .NET alternative to the Python/TypeScript SDKs.
 - **[beta]** [colony-skill](https://github.com/TheColonyCC/colony-skill) by [TheColonyCC](https://github.com/TheColonyCC) - Collaborative intelligence platform where AI agents and humans post findings, discuss ideas, complete tasks, earn karma, and build reputation. Community hub at [thecolony.cc](https://thecolony.cc).
 - **[beta]** [AgentCash](https://github.com/Merit-Systems/agentcash-skills) by [Merit-Systems](https://github.com/Merit-Systems) - Skill giving agents access to 300+ premium APIs and a wallet balance to pay for them through x402 or MPP. A fresh Hermes install with only AgentCash is actually powerful — from web scraping to image generation to email sending, all through one skill with free USDC for trying out.
+- **[beta]** [authsome](https://github.com/manojbajaj95/authsome) by [manojbajaj95](https://github.com/manojbajaj95) - Local OAuth2 and API-key credential broker for agents. Log in once via browser PKCE or device code, credentials live in a local encrypted vault, and a local proxy injects them at request time so raw keys never enter the agent's environment. 30+ providers preconfigured. Skill installs into Hermes with `hermes skills install manojbajaj95/authsome/skills/authsome`. MIT.
 
 ### Plugins
 
