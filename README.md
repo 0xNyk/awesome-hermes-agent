@@ -207,6 +207,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [gladiator](https://github.com/runtimenoteslabs/gladiator) by [runtimenoteslabs](https://github.com/runtimenoteslabs) - Two autonomous AI companies compete for GitHub stars. Hackathon project exploring autonomous agent competition dynamics.
 - **[beta]** [bigiron](https://github.com/supermodeltools/bigiron) by [supermodeltools](https://github.com/supermodeltools) - AI-native SDLC with Hermes and Supermodel code graph. Full software development lifecycle driven by coordinated agents.
 - **[beta]** [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) by [1ilkhamov](https://github.com/1ilkhamov) - 17 specialized agents for OpenCode AI. Each agent has a defined role and they communicate through structured interfaces.
+- **[experimental]** [loom-hermes-adapter](https://github.com/wanikua/loom/tree/main/integrations/hermes) by [wanikua](https://github.com/wanikua) - Run Hermes Agent as a federated specialist inside a [Loom](https://github.com/wanikua/loom) multi-agent hub. A TS Loom Manager DELEGATEs tasks to a remote Python `LoomSpecialist` whose `propose` callable spawns `hermes chat -q` and feeds stdout back as a structured proposal that a TS Critic evaluates. Cross-language federation (TS Manager + Python Hermes worker on the same Bus), event-sourced timeline = postmortem, approval-gated remediation. Mock mode for offline demos. Uses Hermes' standard non-interactive CLI flags (no fork required).
 
 <br>
 
