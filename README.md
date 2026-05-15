@@ -97,6 +97,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-spotify-skill](https://github.com/Alexeyisme/hermes-spotify-skill) by [Alexeyisme](https://github.com/Alexeyisme) - Spotify playback control for headless Linux and Raspberry Pi 4/5. Search, play, pause, skip, set volume, transfer between Spotify Connect devices. No daemon — Hermes writes spotipy snippets and runs them via `execute_code`. Works with raspotify for Pi-as-speaker. Tested on Raspberry Pi OS Lite Bookworm 64-bit. The only Linux-native Spotify skill in the ecosystem.
 - **[experimental]** [hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace) by [Lethe044](https://github.com/Lethe044) - Agent that writes, tests, and publishes new skills autonomously. Automates the skill creation and distribution lifecycle.
 - **[experimental]** [personal-api](https://github.com/beiyuii/personal-api-skill) by [beiyuii](https://github.com/beiyuii) - Turn your Obsidian vault into an identity layer any AI agent can read in under 30 seconds
+- **[beta]** [snap-private-payments](https://github.com/agentzeny/snap-public/tree/main/integrations/hermes) by [agentzeny](https://github.com/agentzeny) - Private agent-to-agent payments on Solana mainnet using Groth16 ZK proofs. Deposit into shielded pools, withdraw anonymously, estimate fees. Live with 3 pools (0.1 SOL, 1 USDC, 10 USDC). SDK: `snap-solana-sdk`.
 
 
 ### agentskills.io Ecosystem
