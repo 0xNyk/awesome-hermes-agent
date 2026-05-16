@@ -85,6 +85,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Community Skills
 
+- **[beta]** [ai-persona-os](https://github.com/kaochaoting/ai-persona-os) by [Kairos Studio](https://github.com/kaochaoting) - Structured persona construction framework with JSON schema (identity, safety, cognitive framework, behavioral calibration, evolution timeline). Every rule comes from real-world agent failures. MIT licensed. Works with any agent platform.
 - **[beta]** [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) - Goal management, inter-agent bridge, model selection, and cost control. Four plugins covering the most common operational needs. The inter-agent bridge is useful if you run multiple Hermes instances.
 - **[beta]** [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) by [Romanescu11](https://github.com/Romanescu11) - Meta-skill that auto-generates reusable skills from your workflows. Point it at a task you repeat and it creates a skill for it.
 - **[beta]** [litprog-skill](https://github.com/tlehman/litprog-skill) by [tlehman](https://github.com/tlehman) - Literate programming skill that works across Claude Code, OpenCode, and Hermes. Weaves code and prose into documented, executable notebooks.
