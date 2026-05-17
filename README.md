@@ -127,6 +127,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Plugins
 
+- **[beta]** [hermes-motif](https://github.com/Saurav0989/hermes-motif) by [Saurav0989](https://github.com/Saurav0989) - Post-tool-call plugin that mines live execution traces for repeated sub-sequences and proposes them as micro-skills backed by evidence, not the agent's post-hoc memory. n-gram extraction, arg abstraction, deduplication against existing skills. 14 tests, zero Hermes install needed to run them.
 - **[beta]** [plur](https://github.com/plur-ai/plur) by [plur-ai](https://github.com/plur-ai) - Shared memory layer for AI agents with open engram format (YAML). Useful for persistent learning patterns in Hermes workflows.
 - **[experimental]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
 - **[beta]** [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) - Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity.
