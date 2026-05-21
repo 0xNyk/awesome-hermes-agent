@@ -221,6 +221,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [gladiator](https://github.com/runtimenoteslabs/gladiator) by [runtimenoteslabs](https://github.com/runtimenoteslabs) - Two autonomous AI companies compete for GitHub stars. Hackathon project exploring autonomous agent competition dynamics.
 - **[beta]** [bigiron](https://github.com/supermodeltools/bigiron) by [supermodeltools](https://github.com/supermodeltools) - AI-native SDLC with Hermes and Supermodel code graph. Full software development lifecycle driven by coordinated agents.
 - **[beta]** [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) by [1ilkhamov](https://github.com/1ilkhamov) - 17 specialized agents for OpenCode AI. Each agent has a defined role and they communicate through structured interfaces.
+- **[beta]** [MisakaNet](https://github.com/Ikalus1988/MisakaNet) by [Ikalus1988](https://github.com/Ikalus1988) - Git-based distributed swarm memory for Hermes and other AI agents. When one agent solves a problem, every node on the network learns from it via shared markdown lessons synced through GitHub Issues. 104+ lessons across 7 domains, 21+ registered nodes (Hermes, Claude, Codex, OpenClaw, OpenCode). Zero infrastructure beyond GitHub.
 
 <br>
 
