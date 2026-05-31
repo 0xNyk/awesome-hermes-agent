@@ -127,6 +127,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Plugins
 
+- **[beta]** [agentplane-hermes-plugin](https://github.com/basilisk-labs/agentplane-hermes-plugin) by [Basilisk Labs](https://github.com/basilisk-labs) - External worker-lane plugin that lets Hermes Kanban assignees matching `agentplane-*` spawn AgentPlane supervision instead of a Hermes profile. Ships a lane registry example, doctor checks, and native `register_worker_lane` support when Hermes exposes that API.
 - **[beta]** [plur](https://github.com/plur-ai/plur) by [plur-ai](https://github.com/plur-ai) - Shared memory layer for AI agents with open engram format (YAML). Useful for persistent learning patterns in Hermes workflows.
 - **[experimental]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
 - **[beta]** [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) by [robbyczgw-cla](https://github.com/robbyczgw-cla) - Multi-provider web search with intelligent routing across Serper, Tavily, Exa, and more. Replaces the built-in search with better result quality and source diversity.
