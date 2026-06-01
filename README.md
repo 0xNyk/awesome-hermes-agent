@@ -80,6 +80,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 <br>
 
 ## Skills & Plugins
+- [invinoveritas](https://github.com/babyblueviper1/invinoveritas) by [invinoveritas](https://api.babyblueviper.com) - Gives a Hermes agent a wallet: a portable agentskills.io skill + one-config-block MCP recipe for pay-per-call tools over Bitcoin Lightning / USDC (x402). Call `review` for a capital-scale-aware governance verdict before any irreversible action (the same gate the operators' live Bitcoin earner passes), plus facts-only markets intelligence (macro regime + live derivatives signals + a markets bundle), sandboxed code execution, wallet-keyed memory, and agent-to-agent payments. Install: `hermes skills tap add babyblueviper1/invinoveritas`.
 
 > Skills are procedural memory — reusable capabilities that Hermes creates from experience and improves during use. Plugins extend core functionality.
 
