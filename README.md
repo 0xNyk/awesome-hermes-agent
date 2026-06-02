@@ -221,6 +221,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [gladiator](https://github.com/runtimenoteslabs/gladiator) by [runtimenoteslabs](https://github.com/runtimenoteslabs) - Two autonomous AI companies compete for GitHub stars. Hackathon project exploring autonomous agent competition dynamics.
 - **[beta]** [bigiron](https://github.com/supermodeltools/bigiron) by [supermodeltools](https://github.com/supermodeltools) - AI-native SDLC with Hermes and Supermodel code graph. Full software development lifecycle driven by coordinated agents.
 - **[beta]** [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) by [1ilkhamov](https://github.com/1ilkhamov) - 17 specialized agents for OpenCode AI. Each agent has a defined role and they communicate through structured interfaces.
+- **[beta]** [PolyBrain](https://github.com/mosesman831/PolyBrain) by [mosesman831](https://github.com/mosesman831) - Multi-agent, multi-model orchestration skill that decomposes an objective into a JSON task plan, runs research and build subtasks in parallel, then synthesizes and verifies a final answer. Each role (orchestrator, researcher, builder, synthesizer, verifier) can use a different LLM/provider. Enforces strict citations, drops uncited claims, and logs artifacts — closer to Perplexity-style research than typical ad-hoc agent scripts. Config-driven: install once, invoke with "Use PolyBrain to …"
 
 <br>
 
