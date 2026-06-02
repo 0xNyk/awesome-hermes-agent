@@ -239,6 +239,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) by [dlkakbs](https://github.com/dlkakbs) - Generates investor-ready kits from startup ideas — market analysis, pitch deck, and financial projections.
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
+- **[production]** [hermes-mine-bean](https://github.com/damo-nu11/minebean-skills/tree/main/hermes-mine-bean) by [MineBean](https://github.com/damo-nu11) - Autonomous $BEAN mining skill for the MineBean 5×5 grid protocol on Base. Runs N consecutive mining rounds in one session. Supports zero-cost `--no-agent` cron mode for fully unattended automation. Production-tested with confirmed on-chain transactions.
 
 <br>
 
