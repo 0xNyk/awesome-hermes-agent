@@ -239,6 +239,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) by [dlkakbs](https://github.com/dlkakbs) - Generates investor-ready kits from startup ideas — market analysis, pitch deck, and financial projections.
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
+- **[beta]** [mycodo-hermes-skill](https://github.com/setasoma/mycodo-hermes-skill) by [setasoma](https://github.com/setasoma) - Phase-aware IoT decision engine for autonomous mushroom cultivation on Raspberry Pi. Reads temperature, humidity, and CO₂ sensors via Mycodo and InfluxDB, detects growth phases, and fires relay commands (fan, humidifier) with safety guards including oversaturation protection. Supports six gourmet species (Lion's Mane, Oyster, Shiitake, Reishi, Turkey Tail, Maitake). Tested through a complete Lion's Mane fruiting cycle. The sensor-to-actuator pattern applies to any controlled-environment grow or IoT control loop.
 
 <br>
 
