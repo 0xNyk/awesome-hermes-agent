@@ -239,6 +239,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) by [dlkakbs](https://github.com/dlkakbs) - Generates investor-ready kits from startup ideas — market analysis, pitch deck, and financial projections.
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
+- **[production]** [hermes-edu-skills](https://github.com/shinewaytech/hermes-edu-skills) by [Shineway Tech](https://github.com/shinewaytech) - 170 production-grade agent skills for Chinese K–12 education. Covers textbook sync (人教版, 北师大版, 苏教版, 统编版, 外研版 and more), exam prep (中高考, CET-4/6, gaokao), photo Q&A, mistake review, lesson planning, family learning, and career skills. Multi-agent compatible: exports to OpenClaw, Codex, Cursor, and Claude Code. MIT, CI-validated with catalog.json discovery endpoints. Install: `npx hermes-edu-skills install hermes`
 
 <br>
 
