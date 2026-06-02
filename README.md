@@ -48,6 +48,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
   - [Plugins](#plugins)
   - [agentskills.io Ecosystem](#agentskillsio-ecosystem)
   - [Skill Registries & Discovery](#skill-registries--discovery)
+- [Memory Providers](#memory-providers)
 - [Tools & Utilities](#tools--utilities)
   - [Deployment](#deployment)
 - [Integrations & Bridges](#integrations--bridges)
@@ -144,6 +145,27 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermeshub](https://github.com/amanning3390/hermeshub) by [amanning3390](https://github.com/amanning3390) - Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing.
 - **[production]** [skilldock.io](https://github.com/chigwell/skilldock.io) by [chigwell](https://github.com/chigwell) - Registry of reusable AI skills compatible with OpenClaw, Claude Code, and Hermes. Established cross-platform skills marketplace with an active catalog.
 - **[production]** [Global Chat](https://global-chat.io) by [pumanitro](https://github.com/pumanitro) - Cross-protocol agent discovery across MCP, A2A, and agents.txt. Searchable directory of 18K+ MCP servers and agents with a free agents.txt validator and MCP server for programmatic access.
+
+<br>
+
+## Memory Providers
+
+> Persistent memory backends for Hermes Agent. Every install picks one — [official docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers) cover the config. Managed via `hermes plugins`.
+
+- **[production]** [mem0](https://github.com/mem0ai/mem0) by [mem0ai](https://github.com/mem0ai) - Universal memory layer for AI agents and assistants. Multi-level memory (user, session, agent), supported via official Hermes integration.
+- **[production]** [hindsight](https://github.com/vectorize-io/hindsight) by [Vectorize](https://github.com/vectorize-io) - Long-term memory with retain/recall/reflect workflows. Postgres and Oracle backends, semantic and temporal retrieval.
+- **[beta]** [honcho](https://github.com/plastic-labs/honcho) by [plastic-labs](https://github.com/plastic-labs) - Stateful memory library with asynchronous user-modeling reasoning. Builds richer user representations over time.
+- **[production]** [supermemory](https://github.com/supermemoryai/supermemory) by [supermemoryai](https://github.com/supermemoryai) - Cloud and self-hosted memory layer. Single API for storing and querying agent memory.
+- **[beta]** [Mnemosyne](https://github.com/AxDSan/Mnemosyne) by [AxDSan](https://github.com/AxDSan) - Local-first, sub-millisecond memory built for Hermes. SQLite + sqlite-vec hybrid search, BEAM tiered architecture (working/episodic/scratchpad), temporal knowledge graph. Zero external dependencies.
+- **[beta]** [yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) by [yantrikos](https://github.com/yantrikos) - Hermes-native memory provider with `think()` canonicalization, `conflicts()` contradiction surfacing, and explainable `recall()` ranking. HTTP to a Rust backend.
+- **[beta]** [hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) by [stephenschoettler](https://github.com/stephenschoettler) - Lossless Context Management for Hermes — keeps session context from degrading in long runs.
+- **[beta]** [ClawMem](https://github.com/yoloshii/ClawMem) by [yoloshii](https://github.com/yoloshii) - On-device memory layer for agents. Local-first with no external API dependencies.
+- **[beta]** [gbrain](https://github.com/garrytan/gbrain) by [garrytan](https://github.com/garrytan) - Opinionated brain layer for Hermes. Structured personal memory with categorization and retrieval.
+- **[beta]** [keepnotes](https://github.com/keepnotes-ai/keep) by [keepnotes-ai](https://github.com/keepnotes-ai) - Reflective memory layer. Stores and resurfaces notes at contextually relevant moments.
+- **[beta]** [Brainstack](https://github.com/yepyhun/Brainstack) by [yepyhun](https://github.com/yepyhun) - Memory kernel stack for agents. Layered memory architecture with priority-based recall.
+- **[beta]** [flowstate-qmd](https://github.com/amanning3390/flowstate-qmd) by [amanning3390](https://github.com/amanning3390) - Anticipatory memory with RAG and vector search. Pre-fetches relevant context before queries hit the agent.
+- **[beta]** [autocontext](https://github.com/greyhaven-ai/autocontext) by [greyhaven-ai](https://github.com/greyhaven-ai) - Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant.
+- **[beta]** [honcho-self-hosted](https://github.com/elkimek/honcho-self-hosted) by [elkimek](https://github.com/elkimek) - Self-hosted Honcho variant for stronger cross-session user modeling with local control.
 
 <br>
 
