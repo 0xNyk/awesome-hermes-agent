@@ -240,6 +240,8 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
 
+- **[production]** [TWZRD Agent Intel](https://intel.twzrd.xyz) — Trust scoring MCP for autonomous Solana agents. Call `score_agent(wallet)` and `preflight_check(wallet)` free; `get_trust_receipt(wallet)` verifies agent identity before high-value operations via x402 micropayment. Useful for verifying Hermes agent wallet identity in multi-agent or enterprise workflows. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`.
+
 <br>
 
 ## Forks & Derivatives
