@@ -99,6 +99,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[experimental]** [personal-api](https://github.com/beiyuii/personal-api-skill) by [beiyuii](https://github.com/beiyuii) - Turn your Obsidian vault into an identity layer any AI agent can read in under 30 seconds
 - **[beta]** [hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud) by [adnw-vinc](https://github.com/adnw-vinc) - Self-hosted Nextcloud bridge — manage files (WebDAV), notes (Nextcloud Notes API), calendar/tasks (CalDAV), and contacts (CardDAV) from Hermes. App Password auth, configurable timezone, guided setup. Fills the self-hosted-cloud gap for Hermes users running their own infrastructure.
 - **[beta]** [oh-my-hermes](https://github.com/witt3rd/oh-my-hermes) by [witt3rd](https://github.com/witt3rd) - Multi-agent orchestration skills for Hermes inspired by `oh-my-claudecode` and rebuilt on Hermes primitives. Suite covers deep-research, deep-interview, `ralplan` (Planner → Architect → Critic consensus), `ralph` (verified execute → verify → iterate), `triage`, and `autopilot`, plus driver skills encoding the dispatcher's playbook. Composes end-to-end: research → interview → consensus plan → verified execution.
+- [Hermes Skills](https://github.com/liuyunnb666/hermes-skills) - 7 curated skills for Hermes Agent: debugging, parallel dev, TDD, UI
 
 
 ### agentskills.io Ecosystem
