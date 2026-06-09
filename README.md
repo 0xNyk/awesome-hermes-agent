@@ -10,6 +10,15 @@
 
 > A curated list of skills, tools, integrations, and resources for enhancing your [Hermes Agent](https://github.com/NousResearch/hermes-agent) workflow — the self-improving AI agent built by [Nous Research](https://nousresearch.com).
 
+<p align="center">
+  <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-hermes-agent">
+    <img src="./assets/atlas-cloud-logo.png" alt="Atlas Cloud logo" width="220">
+  </a>
+</p>
+
+> 🎁 **[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-hermes-agent)** lets Hermes users run the same agent workflows against multiple model families through one OpenAI-compatible API, which is useful for testing skills, comparing behaviors, and iterating on long-running agent setups without reworking every provider integration.
+> Budget-friendly for coding agents and workflow experiments: [coding plan](https://www.atlascloud.ai/console/coding-plan)
+
 Hermes Agent is the only agent with a built-in learning loop — it creates skills from experience, improves them during use, and as of v0.12.0 maintains its own skill library through an autonomous Curator that grades, consolidates, and prunes on a 7-day cycle. It searches its own past conversations and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure (seven terminal backends including Vercel Sandbox, Daytona, and Modal). Talk to it from any of 18 built-in messaging platforms — Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, and more — plus Microsoft Teams via plugin.
 
 This list tracks the growing ecosystem around it.
@@ -36,6 +45,12 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 | **production** | Stable, documented, actively maintained — safe to build on |
 | **beta** | Works but still evolving — expect some rough edges |
 | **experimental** | Proof of concept or early-stage — learn from it, don't depend on it |
+
+---
+
+## Atlas Cloud
+
+- [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-hermes-agent) - OpenAI-compatible backend for Hermes-style agent loops, coding tasks, and skill-driven automation. Useful when you want to compare models such as DeepSeek, Qwen, GLM, Kimi, and MiniMax in the same Hermes workflow without swapping integrations.
 
 ---
 
