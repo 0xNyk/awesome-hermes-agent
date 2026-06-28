@@ -86,6 +86,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 
 ### Community Skills
 
+- **[production]** [Shieldz Payments](https://github.com/ShieldZCash/shieldz-mcp) by [Shieldz](https://shieldz.cash) - Keyless, non-custodial crypto payments for agents: create payment links and tip jars from just a wallet address, no API key. Connect the remote MCP at https://shieldz.cash/mcp (or npx @shieldz/mcp) and call create_payment_link, create_tip_jar, get_account_status. Funds settle straight to the wallet; OFAC-screened and rate-limited. SKILL.md for OpenClaw/Hermes: https://github.com/ShieldZCash/shieldz-openclaw
 - **[beta]** [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) - Plugin suite: Discord voice bridge with Gemini Live, WhatsApp bridge, goal management, inter-agent bridge, model selection, and cost control. Maintained by a frequent Hermes core contributor.
 - **[beta]** [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) by [Romanescu11](https://github.com/Romanescu11) - Meta-skill that auto-generates reusable skills from your workflows. Point it at a task you repeat and it creates a skill for it.
 - **[beta]** [litprog-skill](https://github.com/tlehman/litprog-skill) by [tlehman](https://github.com/tlehman) - Literate programming skill that works across Claude Code, OpenCode, and Hermes. Weaves code and prose into documented, executable notebooks.
