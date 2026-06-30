@@ -181,7 +181,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermeshub](https://github.com/amanning3390/hermeshub) by [amanning3390](https://github.com/amanning3390) - Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing.
 - **[production]** [skilldock.io](https://github.com/chigwell/skilldock.io) by [chigwell](https://github.com/chigwell) - Registry of reusable AI skills compatible with OpenClaw, Claude Code, and Hermes. Established cross-platform skills marketplace with an active catalog.
 - **[production]** [Global Chat](https://global-chat.io) by [pumanitro](https://github.com/pumanitro) - Cross-protocol agent discovery across MCP, A2A, and agents.txt. Searchable directory of 18K+ MCP servers and agents with a free agents.txt validator and MCP server for programmatic access.
-- **[production]** [CreatorSkills](https://creatorskills.co) by [CreatorSkills](https://github.com/calebvbi) - Curated marketplace of 30+ downloadable AI skills for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Uses the open SKILL.md format; skills install into Hermes, Claude Code, ChatGPT, and 20+ compatible platforms.
+- **[production]** [Skill Hub](https://github.com/rdone4425/skill) by [rdone4425](https://github.com/rdone4425) - Multi-platform AI Agent Skills 导航站，4,100+ skills across 22 categories. Compatible with Hermes, Claude, Codex, OpenCode, OpenClaw. Live: [skill.442595.xyz](https://skill.442595.xyz/)
 
 <br>
 
