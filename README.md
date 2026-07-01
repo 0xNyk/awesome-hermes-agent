@@ -205,6 +205,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [Brainstack](https://github.com/yepyhun/Brainstack) by [yepyhun](https://github.com/yepyhun) - Memory kernel stack for agents. Layered memory architecture with priority-based recall.
 - **[beta]** [autocontext](https://github.com/greyhaven-ai/autocontext) by [greyhaven-ai](https://github.com/greyhaven-ai) - Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant.
 - **[beta]** [sourcevault-code-tools](https://github.com/Ocasio-Perez/sourcevault-code-tools) by [Ocasio-Perez](https://github.com/Ocasio-Perez) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
+- **[beta]** [hexus](https://github.com/codenamekt/hexus) by [codenamekt](https://github.com/codenamekt) - Postgres memory plugin and standalone MCP server for Hermes. Uses local BERT (MiniLM-L6-v2) embeddings to replace remote HTTP calls, with multi-agent storage, per-minion themes, async writer, and zero LLM calls in the memory hot path.
 
 <br>
 
