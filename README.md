@@ -205,6 +205,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [Brainstack](https://github.com/yepyhun/Brainstack) by [yepyhun](https://github.com/yepyhun) - Memory kernel stack for agents. Layered memory architecture with priority-based recall.
 - **[beta]** [autocontext](https://github.com/greyhaven-ai/autocontext) by [greyhaven-ai](https://github.com/greyhaven-ai) - Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant.
 - **[beta]** [sourcevault-code-tools](https://github.com/Ocasio-Perez/sourcevault-code-tools) by [Ocasio-Perez](https://github.com/Ocasio-Perez) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
+- **[beta]** [Penfield](https://github.com/penfieldlabs/hermes-penfield) by [penfieldlabs](https://github.com/penfieldlabs) - Penfield persistent memory provider. Cross-session, cross-agent knowledge graph with semantic search, typed connections, and artifact storage.
 
 <br>
 
