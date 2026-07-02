@@ -50,6 +50,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
   - [Skill Registries & Discovery](#skill-registries--discovery)
 - [Memory Providers](#memory-providers)
 - [Tools & Utilities](#tools--utilities)
+  - [Skins & Themes](#skins--themes)
   - [Deployment](#deployment)
 - [Integrations & Bridges](#integrations--bridges)
 - [Detection & Media Forensics](#detection--media-forensics)
@@ -237,6 +238,12 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-bus](https://github.com/mlinquan/hermes-bus) by [mlinquan](https://github.com/mlinquan) - Generic Unix socket message bus transport — 4-byte framing, endpoint registration, heartbeat keep-alive, auto-reconnect. Pairs with hermes-bus-plugin and hermes-notify.
 - **[beta]** [hermes-notify](https://github.com/mlinquan/hermes-notify) by [mlinquan](https://github.com/mlinquan) - Config-driven notification router — YAML rule matching by message type, context injection, audio playback, and tmux notification sender.
 - **[beta]** [arabic-agent-eval](https://github.com/Moshe-ship/arabic-agent-eval) by [Moshe-ship](https://github.com/Moshe-ship) - Dialect-split Arabic function-calling benchmark (51 items, 5 dialects) with public [leaderboard](https://huggingface.co/spaces/Mosescreates/arabic-agent-eval-leaderboard).
+
+### Skins & Themes
+
+> Visual skins, themes, and marketplaces for personalizing the Hermes CLI/agent experience.
+
+- **[beta]** [hermesskins.io](https://hermesskins.io) by [ryan-knowone](https://github.com/ryan-knowone) - Browsable marketplace for Hermes CLI skins and skills. Download drop-in skin YAMLs and community skills, or upload and share your own. Includes an autonomous build journal at [/journal](https://hermesskins.io/journal).
 
 ### Deployment
 
