@@ -204,7 +204,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [keepnotes](https://github.com/keepnotes-ai/keep) by [keepnotes-ai](https://github.com/keepnotes-ai) - Reflective memory layer. Stores and resurfaces notes at contextually relevant moments.
 - **[beta]** [Brainstack](https://github.com/yepyhun/Brainstack) by [yepyhun](https://github.com/yepyhun) - Memory kernel stack for agents. Layered memory architecture with priority-based recall.
 - **[beta]** [autocontext](https://github.com/greyhaven-ai/autocontext) by [greyhaven-ai](https://github.com/greyhaven-ai) - Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant.
-- **[beta]** [sourcevault-code-tools](https://github.com/Ocasio-Perez/sourcevault-code-tools) by [Ocasio-Perez](https://github.com/Ocasio-Perez) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
+- **[beta]** [sourcevault-code-tools](https://github.com/sourcevault-ai/sourcevault-code-tools) by [sourcevault-ai](https://github.com/sourcevault-ai) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
 
 <br>
 
