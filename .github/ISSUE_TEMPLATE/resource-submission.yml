@@ -1,0 +1,98 @@
+name: Resource submission
+description: Recommend a skill, plugin, tool, or resource for the list
+title: "[Submission]: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Submissions are reviewed against the [quality standards in CONTRIBUTING.md](https://github.com/0xNyk/awesome-hermes-agent/blob/main/CONTRIBUTING.md). Please open an issue — **not a PR** — for new resources; approved entries are added by maintainers in batch triage commits.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: hermes-example-plugin
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the public source repository (open source is required for listing)
+      placeholder: https://github.com/you/hermes-example-plugin
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: GitHub username or name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Community Skills
+        - Plugins
+        - agentskills.io Ecosystem
+        - Skill Registries & Discovery
+        - Memory Providers
+        - Tools & Utilities
+        - Deployment
+        - Integrations & Bridges
+        - Detection & Media Forensics
+        - Multi-Agent & Swarms
+        - Domain Applications
+        - Forks & Derivatives
+        - Guides & Documentation
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      description: What does it do?
+    validations:
+      required: true
+  - type: textarea
+    id: why-awesome
+    attributes:
+      label: Why it's awesome
+      description: What makes it worth including? Not a duplicate of anything already listed?
+    validations:
+      required: true
+  - type: input
+    id: why-now
+    attributes:
+      label: Why now
+      description: One sentence on why this matters for current Hermes users
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX identifier (MIT, Apache-2.0, GPL-3.0, ...) — a LICENSE file must exist in the repo
+    validations:
+      required: true
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Suggested maturity label
+      description: Final label is assigned by maintainers
+      options:
+        - experimental
+        - beta
+        - production
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosures
+    attributes:
+      label: Disclosures
+      options:
+        - label: I am the author or affiliated with this project
+        - label: This resource depends on a paid service or API key (disclosed in the description above)
