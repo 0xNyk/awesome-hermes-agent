@@ -1,0 +1,39 @@
+name: Check links
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+  schedule:
+    # Weekly, Mondays 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept 200..=204,403,429
+            --max-concurrency 8
+            README.md
+          fail: ${{ github.event_name == 'pull_request' }}
+
+      - name: Open issue on scheduled failure
+        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Link check: dead links found"
+          content-filepath: ./lychee/out.md
+          labels: bug
