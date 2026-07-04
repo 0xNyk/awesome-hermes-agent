@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guidelines
+    url: https://github.com/0xNyk/awesome-hermes-agent/blob/main/CONTRIBUTING.md
+    about: Read the quality standards before submitting a resource.
+  - name: Nous Research Discord
+    url: https://discord.gg/NousResearch
+    about: Questions about Hermes Agent itself belong here, not in this repo.

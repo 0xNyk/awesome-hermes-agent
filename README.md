@@ -14,8 +14,8 @@ Hermes Agent is the only agent with a built-in learning loop — it creates skil
 
 This list tracks the growing ecosystem around it.
 
-> Ecosystem status (last reviewed: 2026-06-24)
-> - Hermes Agent: [v0.17.0 (v2026.6.19)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19)
+> Ecosystem status (last reviewed: 2026-07-04)
+> - Hermes Agent: [v0.18.0 "The Judgment Release" (v2026.7.1)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1)
 > - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (200k+ stars)
 > - Latest release notes: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
 
@@ -147,6 +147,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[production]** [hermes-mine-bean](https://github.com/damo-nu11/minebean-skills/tree/main/hermes-mine-bean) by [MineBean](https://github.com/damo-nu11) - Autonomous $BEAN mining skill for the MineBean 5×5 grid protocol on Base. Supports zero-cost `--no-agent` cron mode for unattended automation.
 - **[beta]** [invinoveritas](https://github.com/babyblueviper1/invinoveritas) by [babyblueviper1](https://github.com/babyblueviper1) - Portable agentskills.io skill + MCP recipe for pay-per-call tools over Bitcoin Lightning / USDC (x402). Governance `review` gate before irreversible actions, markets intelligence, sandboxed code execution, and agent-to-agent payments.
 - **[beta]** [arelay-skills](https://github.com/mmmikael/arelay-skills) by [mmmikael](https://github.com/mmmikael) - Deliver reports, Markdown, HTML, images, and PDFs via [Agent Relay](https://arelay.app) with optional end-to-end encryption. Works with hosted or self-hosted instances. MIT.
+- **[beta]** [tiny.place](https://github.com/tinyhumansai/tiny.place) by [TinyHumans](https://github.com/tinyhumansai) - Agent-to-agent social network shipped as a portable skill: claim an @handle identity, get discovered in an open directory, message peers over Signal-protocol end-to-end encryption, and transact in USDC/SOL via x402. One SKILL.md runs on Hermes, OpenClaw, and any agentskills.io-compatible harness. GPL-3.0.
 
 ### Plugins
 
@@ -165,7 +166,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [cronalytics](https://github.com/8bit64k/cronalytics) by [8bit64k](https://github.com/8bit64k) - Cron cost and usage analytics. Hooks `on_session_end`, stores analytics in local SQLite, surfaces via dashboard tab, CLI, and agent skill for cron health diagnostics. Multi-language (en, zh, zh-TW, es).
 - **[experimental]** [hermes-drive-index](https://github.com/gregoryhorn/hermes-drive-index) by [gregoryhorn](https://github.com/gregoryhorn) - Private local Google Drive full-text search index. Crawls selected folders into SQLite FTS5 and exposes `drive_index_search`, `drive_index_status`, and `drive_index_update` tools. Apache-2.0.
 - **[beta]** [hermes-feishu-zh](https://github.com/OLDBAI213/hermes-feishu-zh) by [OLDBAI213](https://github.com/OLDBAI213) - Community extension for Chinese Feishu display — replaces English UI labels, stabilizes Markdown via `post` format, and optionally adds `lark-cli-toolbox` with 12 Feishu tools. One-click install with backup/rollback.
-- **[beta]** [hermes-snow-search](https://github.com/mlinquan/hermes-snow-search) by [mlinquan](https://github.com/mlinquan) - In-memory parallel search across sessions, holographic facts, and built-in memory. Sub-millisecond latency vs hundreds of ms serial. Also on [PyPI](https://pypi.org/project/hermes-snow-search/).
+- **[beta]** [hermes-snow-search](https://github.com/mlinquan/hermes-snow-search) by [mlinquan](https://github.com/mlinquan) - Global memory retrieval layer — cross-session SQLite FTS5 search (~0.1s) across full message history, memory, and facts, with CJK/English auto-routing (trigram vs unicode61 tokenizers) and cross-device queries against a shared state.db. Also on [PyPI](https://pypi.org/project/hermes-snow-search/).
 - **[beta]** [hermes-bus-plugin](https://github.com/mlinquan/hermes-bus-plugin) by [mlinquan](https://github.com/mlinquan) - Message bus integration plugin. Auto-starts bus daemon, registers session as endpoint, injects external messages via `pre_llm_call`. Provides `bus_send`, `bus_status`, and `bus_info` tools for cross-process agent coordination.
 - **[beta]** [hermes-motif](https://github.com/Saurav0989/hermes-motif) by [Saurav0989](https://github.com/Saurav0989) - Post-tool-call plugin that mines live execution traces for repeated sub-sequences and proposes them as evidence-backed micro-skills. n-gram extraction, arg abstraction, deduplication against existing skills.
 - **[beta]** [hermes-eval](https://github.com/Saurav0989/hermes-eval) by [Saurav0989](https://github.com/Saurav0989) - Skill regression testing and trajectory quality scoring. Catch skill drift before it propagates. Exports quality-filtered trajectories in Atropos RL format.
@@ -175,6 +176,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hermes-ops-kit](https://github.com/redoracle/hermes-ops-kit) by [redoracle](https://github.com/redoracle) - Operational and security plugin: credential management, provider health checks, route diagnostics, MCP security auditing, key rotation, and usage/cost observability.
 - **[beta]** [agentplane-hermes-plugin](https://github.com/basilisk-labs/agentplane-hermes-plugin) by [Basilisk Labs](https://github.com/basilisk-labs) - External worker-lane plugin letting Hermes Kanban assignees matching `agentplane-*` spawn AgentPlane supervision instead of a Hermes profile.
 - **[beta]** [khwarizmi-hermes-plugin](https://github.com/Moshe-ship/khwarizmi-hermes-plugin) by [Moshe-ship](https://github.com/Moshe-ship) - Pre-LLM reliability preflight via `pre_llm_call`/`pre_tool_call`: restores implicit references, fails loud on contradictions, and gates tool calls against a constraint-driven allowlist. Part of the [Mizan](https://github.com/Moshe-ship/mizan) stack.
+- **[beta]** [hermes-plugin-slash-prompts](https://github.com/buihongduc132/hermes-plugin-slash-prompts) by [buihongduc132](https://github.com/buihongduc132) - Loads existing CLI-agent prompt files (OpenCode, Claude Code, Codex, Gemini CLI) as Hermes slash commands. Auto-discovers six standard prompt directories, reads YAML-frontmatter/TOML/raw formats, and unifies the different argument-interpolation syntaxes (`$ARGUMENTS`, `$1`–`$9`, `{{args}}`) in one handler. MIT.
 
 ### Skill Registries & Discovery
 
@@ -182,6 +184,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[production]** [skilldock.io](https://github.com/chigwell/skilldock.io) by [chigwell](https://github.com/chigwell) - Registry of reusable AI skills compatible with OpenClaw, Claude Code, and Hermes. Established cross-platform skills marketplace with an active catalog.
 - **[production]** [Global Chat](https://global-chat.io) by [pumanitro](https://github.com/pumanitro) - Cross-protocol agent discovery across MCP, A2A, and agents.txt. Searchable directory of 18K+ MCP servers and agents with a free agents.txt validator and MCP server for programmatic access.
 - **[production]** [CreatorSkills](https://creatorskills.co) by [CreatorSkills](https://github.com/calebvbi) - Curated marketplace of 30+ downloadable AI skills for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Uses the open SKILL.md format; skills install into Hermes, Claude Code, ChatGPT, and 20+ compatible platforms.
+- **[production]** [TypeUI for Hermes](https://www.typeui.sh/docs/guides/hermes) by [Bergside](https://github.com/bergside/typeui) - Registry of design skills that give Hermes better context when building user interfaces. Component and style guidance sourced from an established design-system vendor. 1.4k+ stars.
 
 <br>
 
@@ -204,7 +207,9 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [keepnotes](https://github.com/keepnotes-ai/keep) by [keepnotes-ai](https://github.com/keepnotes-ai) - Reflective memory layer. Stores and resurfaces notes at contextually relevant moments.
 - **[beta]** [Brainstack](https://github.com/yepyhun/Brainstack) by [yepyhun](https://github.com/yepyhun) - Memory kernel stack for agents. Layered memory architecture with priority-based recall.
 - **[beta]** [autocontext](https://github.com/greyhaven-ai/autocontext) by [greyhaven-ai](https://github.com/greyhaven-ai) - Recursive self-improving context harness. Automatically curates and compresses context to keep it relevant.
-- **[beta]** [sourcevault-code-tools](https://github.com/Ocasio-Perez/sourcevault-code-tools) by [Ocasio-Perez](https://github.com/Ocasio-Perez) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
+- **[beta]** [sourcevault-code-tools](https://github.com/sourcevault-ai/sourcevault-code-tools) by [sourcevault-ai](https://github.com/sourcevault-ai) - Private local code memory: semantic code search, exact file reads, and grounded repo Q&A with citations, all on-machine via a local SourceVault server. MIT.
+- **[beta]** [hexus](https://github.com/codenamekt/hexus) by [codenamekt](https://github.com/codenamekt) - Postgres memory plugin and standalone MCP server. Local BERT (MiniLM-L6-v2) embeddings keep the memory hot path free of LLM and remote HTTP calls, with pgvector search, multi-agent storage, per-minion themes, and an async write queue. BSD-3-Clause.
+- **[beta]** [hermes-penfield](https://github.com/penfieldlabs/hermes-penfield) by [penfieldlabs](https://github.com/penfieldlabs) - Memory provider for the Penfield knowledge graph — 16 tools, OAuth 2.1 device flow, stdlib-only, and the full MemoryProvider ABC (prefetch, pre-compress, system prompt block). Plugin is MIT, but it fronts the paid Penfield cloud service (no free tier).
 
 <br>
 
@@ -274,9 +279,11 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [wasl](https://github.com/Moshe-ship/wasl) by [Moshe-ship](https://github.com/Moshe-ship) - Arabic MCP server — 30 tools (prayer times, Quran, Hijri dates, Arabic NLP). `pip install wasl-mcp`.
 - **[experimental]** [agy-cli bridge](https://github.com/ypnpt6ysmw-bit/agy-cli) by [ypnpt6ysmw-bit](https://github.com/ypnpt6ysmw-bit) - Integrates Google Antigravity CLI and Antigravity Pro subscription credentials with Hermes via macOS Keychain OAuth — no AI Studio API keys needed.
 - **[production]** [Spraay x402 Gateway](https://gateway.spraay.app) by [plagtech](https://github.com/plagtech) - Batch-pay recipients in a single on-chain transaction across 13+ chains. 151 paid primitives via x402 micropayment protocol. Available as [Hermes skill](https://github.com/NousResearch/hermes-agent/pull/49716) or [MCP server](https://smithery.ai/servers/Plagtech/Spraay-x402-mcp).
-- **[production]** [hypernatt-terminal](https://smithery.ai/servers/hypernatt/hypernatt-terminal) by [DIALLOUBE-RESEARCH](https://github.com/DIALLOUBE-RESEARCH) - BTC decision terminal MCP for agents — vault-backed BTC/USDC signals, MM trap/hunt, liq radar, and Li.Fi swap. MCP at `https://hypernatt.com/mcp/protocol`.
+- **[production]** [hypernatt-terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal) by [DIALLOUBE-RESEARCH](https://github.com/DIALLOUBE-RESEARCH) - [HyperNatt](https://hypernatt.com) BTC decision terminal MCP for agents (9 tools) — vault-backed BTC/USDC signals, MM trap/hunt, liq radar, and Li.Fi cross-chain swap. Paid per-call via x402 (Base + Solana). MCP at `https://hypernatt.com/mcp/protocol` · [quickstart](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal/blob/main/docs/quickstart.md).
 - **[beta]** [space0](https://github.com/zero-sq/space0-mcp) by [zero-sq](https://github.com/zero-sq) - Shared 3D voxel world body for agents with spatial memory, co-presence, and persistent identity across sessions. agentskills.io skill + MCP server.
 - **[production]** [MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP) by [jau123](https://github.com/jau123) - Stdio MCP server for AI image + video generation across 9 leading models (GPT Image 2, Nanobanana 2, Seedream 5.0, Midjourney V8.1, Flux 2 Klein, Seedance 2.0, Happyhorse 1.0, Veo 3.1) plus local ComfyUI. Three backend modes: MeiGen cloud, any OpenAI-compatible API (BYOK), or fully offline ComfyUI. README ships a tested Hermes `mcp_servers` YAML with the timeout overrides needed for video gen workflows. SSRF-hardened, R2 uploads auto-expire after 24h. 1k+ stars.
+- **[beta]** [hermes-tag](https://github.com/DanielLi202/hermes-tag) by [DanielLi202](https://github.com/DanielLi202) - Context-selection layer for Feishu/Lark and Slack groups: @-mention the agent and it replies in-thread from bounded per-chat memory plus selected evidence — replies only when mentioned, no full-history RAG, no ambient auto-answer. Admin audit and lifecycle controls with an `enabled_chats` allowlist. MIT, bilingual docs with real demo recordings.
+- **[beta]** [consensus-mcp-hermes](https://github.com/ahmdngi/consensus-mcp-hermes) by [ahmdngi](https://github.com/ahmdngi) - Setup guide connecting 200M+ peer-reviewed research papers to Hermes via the [Consensus](https://consensus.app) MCP server — OAuth walkthrough for headless environments, mcp-remote bridge config, and the full search tool parameter reference.
 
 <br>
 
@@ -316,6 +323,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [mercury](https://github.com/hxsteric/mercury) by [hxsteric](https://github.com/hxsteric) - Multi-chain blockchain cash flow analyzer with WebGL dashboard. On-chain forensics and flow visualization.
 - **[experimental]** [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) by [Aum08Desai](https://github.com/Aum08Desai) - Autonomous LLM research agent. Handles literature review, hypothesis generation, and experiment design end-to-end.
 - **[beta]** [mycodo-hermes-skill](https://github.com/setasoma/mycodo-hermes-skill) by [setasoma](https://github.com/setasoma) - Phase-aware IoT decision engine for autonomous mushroom cultivation on Raspberry Pi. Reads sensors via Mycodo/InfluxDB, detects growth phases, and fires relay commands with safety guards. Tested through a complete Lion's Mane fruiting cycle.
+- **[production]** [snapmaker-u1-toolkit](https://github.com/bbolinger/snapmaker-u1-toolkit) by [bbolinger](https://github.com/bbolinger) - Safety-staged headless slicing for the Snapmaker U1 multi-tool 3D printer over Moonraker/Klipper LAN. 10-step staged operator flow with camera-gated print starts — the gate caught a wrong-extruder G-code before any heat command in live testing. Ships a bundled Hermes skill installable via `hermes skills install bbolinger/snapmaker-u1-toolkit/skills/3d-printer-slicing-automation`. MIT.
 
 <br>
 
