@@ -119,6 +119,7 @@ Once you're comfortable, explore the full list below. Every resource is tagged w
 - **[beta]** [hurmoz](https://github.com/Moshe-ship/hurmoz) by [Moshe-ship](https://github.com/Moshe-ship) - Arabic-first skills pack — 63 skills across Islamic tools (prayer times, zakat, Quran), dialect-aware NLP, content, and travel. Install: `hermes skills tap add Moshe-ship/hurmoz`.
 - **[experimental]** [humanizer-ru](https://github.com/ilyautov/humanizer-ru) by [ilyautov](https://github.com/ilyautov) - Removes AI-writing tells from Russian text (bureaucratese, calques, ChatGPT/Claude fingerprints). 52 patterns, deterministic offline scanner. SKILL.md-compatible. MIT.
 - **[beta]** [skill-packs](https://github.com/shunfeng8421/skill-packs) by [shunfeng8421](https://github.com/shunfeng8421) - Premium deployable skill packs for crypto monitoring — cross-exchange arb scanner, DeFi security scanner, and cross-chain tracker. Self-adaptive thresholds, zero paid API dependencies, runs on a $5 VPS.
+- **[beta]** [ditto](https://github.com/ohad6k/ditto) by [ohad6k](https://github.com/ohad6k) - Mines your historical Claude Code / Codex / Copilot session logs into a personal profile skill Hermes loads natively. What your work already proved about you (what "done" means, what you reject, how you debug), available on day one instead of weeks of USER.md warm-up. Zero-dependency single-file Python, MIT.
 
 ### agentskills.io Ecosystem
 
