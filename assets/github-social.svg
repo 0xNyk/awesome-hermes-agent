@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
-  <rect width="1280" height="640" fill="#0a0a0a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="awesome-hermes-agent social">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C5F23F" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
   <rect x="0" y="0" width="8" height="640" fill="#C5F23F"/>
-  <text x="64" y="120" fill="#737373" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22" letter-spacing="4">AWESOME LIST  ·  HERMES  ·  AGENT OS</text>
-  <text x="64" y="220" fill="#fafafa" font-family="ui-sans-serif,system-ui,sans-serif" font-size="64" font-weight="600">awesome-hermes-agent</text>
-  <text x="64" y="290" fill="#a3a3a3" font-family="ui-sans-serif,system-ui,sans-serif" font-size="28">Skills, tools, and integrations for the Hermes Agent ecosystem</text>
-  <text x="64" y="560" fill="#737373" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="20">0xNyk · open source · nyk.dev/oss</text>
-  <circle cx="1180" cy="120" r="48" fill="none" stroke="#C5F23F" stroke-width="2" opacity="0.5"/>
-  <circle cx="1180" cy="120" r="24" fill="#C5F23F" opacity="0.25"/>
+  <!-- blueprint: skills → host → surfaces -->
+  <g transform="translate(860,120)" fill="none" stroke="#C5F23F" stroke-width="1.5">
+    <rect x="0" y="40" width="120" height="48" rx="6" stroke-opacity="0.55"/>
+    <rect x="160" y="40" width="120" height="48" rx="6" stroke-opacity="0.9"/>
+    <rect x="320" y="0" width="100" height="40" rx="6" stroke-opacity="0.45"/>
+    <rect x="320" y="56" width="100" height="40" rx="6" stroke-opacity="0.45"/>
+    <rect x="320" y="112" width="100" height="40" rx="6" stroke-opacity="0.45"/>
+    <line x1="120" y1="64" x2="160" y2="64" stroke-opacity="0.7"/>
+    <line x1="280" y1="64" x2="320" y2="20" stroke-opacity="0.4"/>
+    <line x1="280" y1="64" x2="320" y2="76" stroke-opacity="0.7"/>
+    <line x1="280" y1="64" x2="320" y2="132" stroke-opacity="0.4"/>
+    <circle cx="280" cy="64" r="5" fill="#C5F23F" fill-opacity="0.9" stroke="none"/>
+  </g>
+  <text x="56" y="96" fill="#C5F23F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="0.28em">AWESOME · HERMES · ECOSYSTEM</text>
+  <text x="56" y="220" fill="#fafafa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="58" font-weight="700">awesome-hermes-agent</text>
+  <text x="56" y="290" fill="#a3a3a3" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26">Curated skills, tools, and integrations for Hermes Agent</text>
+  <text x="56" y="360" fill="#737373" font-family="ui-monospace, Menlo, monospace" font-size="18">skills · memory · messaging · deploy · multi-agent</text>
+  <text x="56" y="560" fill="#737373" font-family="ui-monospace, Menlo, monospace" font-size="18">0xNyk · open source · nyk.dev/oss</text>
+  <text x="56" y="590" fill="#525252" font-family="ui-monospace, Menlo, monospace" font-size="14">1280×640 · social / Open Graph</text>
 </svg>

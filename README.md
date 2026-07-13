@@ -1,42 +1,45 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-social.svg">
-    <img src="assets/github-social.svg" alt="Awesome Hermes Agent" width="800">
-  </picture>
+  <img src="assets/github-social.svg" alt="Awesome Hermes Agent" width="800">
 </p>
 
 <p align="center">
   <a href="https://www.nyk.dev/oss/awesome-hermes-agent">nyk.dev/oss</a>
   ·
   <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>
+  ·
+  <a href="assets/BRAND.md">Brand kit</a>
 </p>
 
 # Awesome Hermes Agent
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0](https://img.shields.io/badge/License-see%20LICENSE-lightgrey.svg)](LICENSE)
+[![Validate](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml/badge.svg)](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml)
 
-> A curated list of skills, tools, integrations, and resources for enhancing your [Hermes Agent](https://github.com/NousResearch/hermes-agent) workflow — the self-improving AI agent built by [Nous Research](https://nousresearch.com).
+> Curated skills, tools, integrations, and resources for [Hermes Agent](https://github.com/NousResearch/hermes-agent) — the self-improving agent from [Nous Research](https://nousresearch.com).
 
-Hermes Agent is the only agent with a built-in learning loop — it creates skills from experience, improves them during use, and as of v0.12.0 maintains its own skill library through an autonomous Curator that grades, consolidates, and prunes on a 7-day cycle. It searches its own past conversations and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure (seven terminal backends including Vercel Sandbox, Daytona, and Modal). Talk to it from any of 18 built-in messaging platforms — Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, and more — plus Microsoft Teams via plugin.
+Hermes ships a learning loop (skills from experience, Curator pruning, session memory) plus messaging gateways and terminal backends. **This list is the ecosystem map**, not a second product.
 
-This list tracks the growing ecosystem around it.
+<p align="center">
+  <img src="assets/system-blueprint.svg" alt="Hermes ecosystem blueprint: core, skills, memory, surfaces" width="800">
+</p>
 
 > Ecosystem status (last reviewed: 2026-07-04)
 > - Hermes Agent: [v0.18.0 "The Judgment Release" (v2026.7.1)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1)
-> - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (200k+ stars)
-> - Latest release notes: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
+> - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+> - Releases: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
 
 ---
 
 ## Where Do I Start?
 
-New to Hermes? Don't try to install everything at once. Here's the three-step path from zero to productive:
+Three steps from zero to productive:
 
-1. **Get running** — Follow the [Official Docs quickstart](https://hermes-agent.nousresearch.com/docs/). It covers installation, CLI, configuration, and your first conversation.
-2. **Add your first skills** — Install [wondelai/skills](https://github.com/wondelai/skills) (380+ stars, actively maintained) — a cross-platform skills library that works with Hermes and other agents. Or try [litprog-skill](https://github.com/tlehman/litprog-skill) (75+ stars) for literate programming across Claude Code, OpenCode, and Hermes.
-3. **Get a GUI** — Set up [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (500+ stars) for a Hermes-native workspace with chat, terminal, and skills manager. Or use [mission-control](https://github.com/builderz-labs/mission-control) (3.7k+ stars) for a broader agent orchestration dashboard with fleet management, task dispatch, and cost tracking.
+1. **Run Hermes** — [Official docs quickstart](https://hermes-agent.nousresearch.com/docs/) (install, CLI, first chat).
+2. **Add skills** — [wondelai/skills](https://github.com/wondelai/skills) (broad library) or [litprog-skill](https://github.com/tlehman/litprog-skill) (literate programming).
+3. **Add a surface** — [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (Hermes GUI) or [mission-control](https://github.com/builderz-labs/mission-control) (fleet / dispatch dashboard).
 
-Once you're comfortable, explore the full list below. Every resource is tagged with a maturity level so you know what you're getting into:
+Then use the full list. Every entry has a maturity tag:
 
 | Tag | What it means |
 |-----|---------------|

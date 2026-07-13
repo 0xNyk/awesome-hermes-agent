@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="Hermes ecosystem blueprint">
+  <rect width="1200" height="640" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="6" height="640" fill="#C5F23F"/>
+  <text x="48" y="56" fill="#C5F23F" font-family="ui-monospace, Menlo, monospace" font-size="16" letter-spacing="0.2em">BLUEPRINT · HERMES ECOSYSTEM MAP</text>
+  <text x="48" y="100" fill="#fafafa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="600">What this list organizes</text>
+
+  <!-- columns -->
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14">
+    <rect x="48" y="140" width="240" height="400" rx="8" fill="#111" stroke="#C5F23F" stroke-opacity="0.35"/>
+    <text x="68" y="176" fill="#C5F23F">1 · CORE</text>
+    <text x="68" y="216" fill="#a3a3a3">Hermes Agent host</text>
+    <text x="68" y="248" fill="#a3a3a3">Docs + releases</text>
+    <text x="68" y="280" fill="#a3a3a3">Official adapters</text>
+
+    <rect x="320" y="140" width="240" height="400" rx="8" fill="#111" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="340" y="176" fill="#C5F23F">2 · SKILLS</text>
+    <text x="340" y="216" fill="#a3a3a3">Community skills</text>
+    <text x="340" y="248" fill="#a3a3a3">Plugins</text>
+    <text x="340" y="280" fill="#a3a3a3">Registries</text>
+
+    <rect x="592" y="140" width="240" height="400" rx="8" fill="#111" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="612" y="176" fill="#C5F23F">3 · MEMORY</text>
+    <text x="612" y="216" fill="#a3a3a3">Providers</text>
+    <text x="612" y="248" fill="#a3a3a3">Long-context tools</text>
+    <text x="612" y="280" fill="#a3a3a3">Journal patterns</text>
+
+    <rect x="864" y="140" width="280" height="400" rx="8" fill="#111" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="884" y="176" fill="#C5F23F">4 · SURFACES</text>
+    <text x="884" y="216" fill="#a3a3a3">Messaging gateways</text>
+    <text x="884" y="248" fill="#a3a3a3">Deploy backends</text>
+    <text x="884" y="280" fill="#a3a3a3">GUIs / mission control</text>
+    <text x="884" y="312" fill="#a3a3a3">Multi-agent bridges</text>
+  </g>
+  <text x="48" y="600" fill="#525252" font-family="ui-monospace, Menlo, monospace" font-size="14">awesome-hermes-agent · maturity tags: production · beta · experimental</text>
+</svg>
