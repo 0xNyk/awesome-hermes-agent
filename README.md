@@ -1,7 +1,14 @@
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Awesome Hermes Agent" width="600">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-social.svg">
+    <img src="assets/github-social.svg" alt="Awesome Hermes Agent" width="800">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://www.nyk.dev/oss/awesome-hermes-agent">nyk.dev/oss</a>
+  ·
+  <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>
 </p>
 
 # Awesome Hermes Agent

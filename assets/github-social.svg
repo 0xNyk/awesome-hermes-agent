@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="8" height="640" fill="#C5F23F"/>
+  <text x="64" y="120" fill="#737373" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22" letter-spacing="4">AWESOME LIST  ·  HERMES  ·  AGENT OS</text>
+  <text x="64" y="220" fill="#fafafa" font-family="ui-sans-serif,system-ui,sans-serif" font-size="64" font-weight="600">awesome-hermes-agent</text>
+  <text x="64" y="290" fill="#a3a3a3" font-family="ui-sans-serif,system-ui,sans-serif" font-size="28">Skills, tools, and integrations for the Hermes Agent ecosystem</text>
+  <text x="64" y="560" fill="#737373" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="20">0xNyk · open source · nyk.dev/oss</text>
+  <circle cx="1180" cy="120" r="48" fill="none" stroke="#C5F23F" stroke-width="2" opacity="0.5"/>
+  <circle cx="1180" cy="120" r="24" fill="#C5F23F" opacity="0.25"/>
+</svg>
