@@ -1,0 +1,26 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require core files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f SECURITY.md
+          test -f assets/github-social.svg
+          test -f assets/system-blueprint.svg
+      - name: Basic link sanity (no raw secrets patterns)
+        run: |
+          if grep -REI '(api[_-]?key|sk-[a-zA-Z0-9]{20,}|BEGIN PRIVATE KEY)' README.md CONTRIBUTING.md; then
+            echo "Possible secret pattern in docs"
+            exit 1
+          fi
+          echo "ok"

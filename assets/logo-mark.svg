@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="awesome-hermes mark">
+  <rect width="256" height="256" rx="40" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="12" height="256" fill="#C5F23F"/>
+  <!-- H-shaped node graph -->
+  <g fill="none" stroke="#C5F23F" stroke-width="6" stroke-linecap="round">
+    <circle cx="78" cy="72" r="14" fill="#C5F23F" fill-opacity="0.15"/>
+    <circle cx="178" cy="72" r="14" fill="#C5F23F" fill-opacity="0.15"/>
+    <circle cx="78" cy="184" r="14" fill="#C5F23F" fill-opacity="0.15"/>
+    <circle cx="178" cy="184" r="14" fill="#C5F23F" fill-opacity="0.15"/>
+    <circle cx="128" cy="128" r="16" fill="#C5F23F" fill-opacity="0.35"/>
+    <path d="M78 86 V170 M178 86 V170 M92 128 H164" stroke-opacity="0.9"/>
+  </g>
+</svg>
