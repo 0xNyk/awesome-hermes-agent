@@ -1,8 +1,15 @@
 .DS_Store
+Thumbs.db
 .env
+.env.*
+!.env.example
 .claude/
 CLAUDE.md
 .vscode/
+.idea/
+.cache/
+.lycheecache
+*.log
 *.swp
 *.swo
 *~
