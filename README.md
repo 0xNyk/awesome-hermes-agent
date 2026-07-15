@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="assets/github-social.svg" alt="Awesome Hermes Agent" width="800">
+  <a href="https://github.com/NousResearch/hermes-agent">
+    <img src="assets/hermes-agent-banner.png" alt="Hermes Agent" width="800">
+  </a>
 </p>
 
 <p align="center">
@@ -13,19 +15,22 @@
 # Awesome Hermes Agent
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0](https://img.shields.io/badge/License-see%20LICENSE-lightgrey.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Validate](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml/badge.svg)](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml)
 
-> Curated skills, tools, integrations, and resources for [Hermes Agent](https://github.com/NousResearch/hermes-agent) — the self-improving agent from [Nous Research](https://nousresearch.com).
+> Curated skills, tools, integrations, and resources for [Hermes Agent](https://github.com/NousResearch/hermes-agent), the self-improving agent from [Nous Research](https://nousresearch.com).
 
-Hermes ships a learning loop (skills from experience, Curator pruning, session memory) plus messaging gateways and terminal backends. **This list is the ecosystem map**, not a second product.
+Hermes Agent is the open-source agent maintained by Nous Research. Awesome Hermes Agent is
+0xNyk's independent open-source directory for the optional skills, plugins, memory
+providers, surfaces, and bridges around it. This directory is not an official Nous Research
+project.
 
 <p align="center">
-  <img src="assets/system-blueprint.svg" alt="Hermes ecosystem blueprint: core, skills, memory, surfaces" width="800">
+  <img src="assets/runtime-map.jpeg" alt="Hermes runtime and optional ecosystem layers" width="800">
 </p>
 
-> Ecosystem status (last reviewed: 2026-07-04)
-> - Hermes Agent: [v0.18.0 "The Judgment Release" (v2026.7.1)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1)
+> Ecosystem status (last reviewed: 2026-07-16)
+> - Hermes Agent: [v0.18.2 (v2026.7.7.2)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7.2)
 > - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 > - Releases: [Hermes releases](https://github.com/NousResearch/hermes-agent/releases)
 
@@ -35,23 +40,51 @@ Hermes ships a learning loop (skills from experience, Curator pruning, session m
 
 Three steps from zero to productive:
 
-1. **Run Hermes** — [Official docs quickstart](https://hermes-agent.nousresearch.com/docs/) (install, CLI, first chat).
-2. **Add skills** — [wondelai/skills](https://github.com/wondelai/skills) (broad library) or [litprog-skill](https://github.com/tlehman/litprog-skill) (literate programming).
-3. **Add a surface** — [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (Hermes GUI) or [mission-control](https://github.com/builderz-labs/mission-control) (fleet / dispatch dashboard).
+1. **Run Hermes:** [Official docs quickstart](https://hermes-agent.nousresearch.com/docs/) (install, CLI, first chat).
+2. **Add skills:** [wondelai/skills](https://github.com/wondelai/skills) (broad library) or [litprog-skill](https://github.com/tlehman/litprog-skill) (literate programming).
+3. **Add a surface:** [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) (Hermes GUI) or [mission-control](https://github.com/builderz-labs/mission-control) (fleet / dispatch dashboard).
 
 Then use the full list. Every entry has a maturity tag:
 
+<p align="center">
+  <img src="assets/start-path.jpeg" alt="Start with a working Hermes conversation before adding ecosystem layers" width="800">
+</p>
+
 | Tag | What it means |
 |-----|---------------|
-| **production** | Stable, documented, actively maintained — safe to build on |
-| **beta** | Works but still evolving — expect some rough edges |
-| **experimental** | Proof of concept or early-stage — learn from it, don't depend on it |
+| **production** | Stable, documented, actively maintained; safe to build on |
+| **beta** | Works but still evolving; expect some rough edges |
+| **experimental** | Proof of concept or early-stage; learn before depending on it |
+
+<p align="center">
+  <img src="assets/maturity-notes.jpeg" alt="Editorial evidence behind production, beta, and experimental tags" width="800">
+</p>
+
+Tags are editorial snapshots based on documentation, setup evidence, maintenance, and
+adoption signals. Re-check the linked project before depending on it.
+
+## Check the trust boundary
+
+An ecosystem listing is a discovery aid, not a security endorsement. Before enabling a
+community skill, plugin, MCP server, or unattended job, verify who can trigger it, which
+tools it receives, where commands execute, what credentials it can read, and how you can
+stop it. Prefer the smallest toolset and an isolated backend for untrusted work.
+
+<p align="center">
+  <img src="assets/trust-boundary.jpeg" alt="Hermes capability and permission trust-boundary checklist" width="800">
+</p>
+
+Use the official [security guide](https://hermes-agent.nousresearch.com/docs/user-guide/security/),
+[tools reference](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools/),
+and [cron documentation](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)
+for the current controls.
 
 ---
 
 ## Contents
 
 - [Where Do I Start?](#where-do-i-start)
+- [Check the Trust Boundary](#check-the-trust-boundary)
 - [Official Resources](#official-resources)
 - [Skills & Plugins](#skills--plugins)
   - [Community Skills](#community-skills)
@@ -78,7 +111,7 @@ Then use the full list. Every entry has a maturity tag:
 
 > Core repositories and resources maintained by Nous Research.
 
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com) - The core project. Self-improving and self-maintaining AI agent with a closed learning loop, the autonomous `hermes curator` that grades and consolidates the skill library on a cron cycle (v0.12+), 18-platform messaging gateway (Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, …) plus Microsoft Teams via plugin, seven terminal backends (local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox), cron scheduling, MCP integration, profiles (multi-instance), pluggable transports (Anthropic, ChatCompletions, Responses API, Bedrock), and fallback providers. 200k+ stars. Includes automatic migration from OpenClaw.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com) - The core project. Self-improving agent with a closed learning loop, skill creation and curation, persistent memory, 20+ messaging platforms, six terminal backends (local, Docker, SSH, Singularity, Modal, and Daytona), cron scheduling, MCP integration, isolated profiles, provider routing, and automatic migration from OpenClaw. 200k+ stars.
 - [autonovel](https://github.com/NousResearch/autonovel) by [Nous Research](https://nousresearch.com) - Autonomous novel-writing pipeline built on Hermes. Generates long-form manuscripts (100k+ words) end-to-end using the agent loop.
 - [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) by [Nous Research](https://nousresearch.com) - Run Hermes as a managed employee in Paperclip companies. Connects the agent to Paperclip's task management and governance system.
 - [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) by [Nous Research](https://nousresearch.com) - Evolutionary self-improvement using DSPy and GEPA (Genetic Evolution of Prompt Architectures). The research pipeline for optimizing Hermes's own prompts and behaviors.
@@ -146,7 +179,7 @@ Then use the full list. Every entry has a maturity tag:
 - **[production]** [drawio-skill](https://github.com/Agents365-ai/drawio-skill) by [Agents365-ai](https://github.com/Agents365-ai) - Generates draw.io diagrams from natural language and exports to PNG/SVG/PDF. SKILL.md format, works across Claude Code, OpenClaw, Hermes, Codex. Useful when an agent needs to communicate architecture or process visually without a separate design step. 1.1k+ stars.
 - **[production]** [open-design](https://github.com/nexu-io/open-design) by [nexu-io](https://github.com/nexu-io) - Local-first, open-source alternative to Anthropic's Claude Design. 31 composable skills (web/mobile/decks/dashboards/documents) over 129 design systems (Linear, Stripe, Vercel, Notion, Apple, …) with image (gpt-image-2), video (Seedance 2.0, HyperFrames), and audio generation. Auto-detects 15 coding-agent CLIs from PATH and integrates with Hermes via ACP/JSON-RPC. BYOK proxy, sandboxed previews, can import Claude Design exports. 28k+ stars.
 - **[beta]** [master-skill](https://github.com/voidborne-d/master-skill) by [voidborne-d](https://github.com/voidborne-d) - Distills an entire industry into a portable skill folder via a 5-phase research-synthesis pipeline (mental models, decision rules, tool stacks, workflows, terminology, antipatterns, decay-aware limits). Same artifact installs into Hermes (`python3 tools/install.py install --host hermes`), Claude Code, OpenClaw, and Codex. 9 industries shipped at v1.4. Orthogonal to skill-factory: produces the cognitive OS *before* user-loop starts.
-- **[beta]** [authsome](https://github.com/agentrhq/authsome) by [agentrhq](https://github.com/agentrhq) - Local OAuth2 and API-key credential broker for agents. Log in once via browser PKCE or device code, credentials live in a local encrypted vault, and a local proxy injects them at request time so raw keys never enter the agent's environment. 45 providers preconfigured (14 OAuth2, 31 API key) including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, and Stripe. Skill installs into Hermes with `hermes skills install agentrhq/authsome/skills/authsome`. MIT.
+- **[beta]** [authsome](https://github.com/agentrhq/authsome) by [agentrhq](https://github.com/agentrhq) - Local OAuth2 and API credential broker for agents. Log in once via browser PKCE or device code, credentials live in a local encrypted vault, and a local proxy injects them at request time so raw keys never enter the agent's environment. 45 providers preconfigured (14 OAuth2, 31 API credentials) including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, and Stripe. Skill installs into Hermes with `hermes skills install agentrhq/authsome/skills/authsome`. MIT.
 - **[production]** [outreachmagic](https://github.com/outreachmagic/outreachmagic) by [Outreach Magic](https://github.com/outreachmagic) - GTM pipeline agent that syncs Smartlead, Instantly, HeyReach, PlusVibe, EmailBison, Prosp, and Calendly into a local SQLite database your agent can query.
 - **[production]** [abvx-agent-skills](https://github.com/markoblogo/abvx-agent-skills) by [markoblogo](https://github.com/markoblogo) - Auditable cross-platform coding-agent skillpack for smaller diffs, evidence-led debugging, token control, browser verification, and reviewable `SKILL.md` workflows with static security audit.
 - **[production]** [dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills) by [Infrasity-Labs](https://github.com/Infrasity-Labs) - Cross-platform agent skills for SEO, GEO (Generative Engine Optimization), AI discoverability, and developer marketing.
