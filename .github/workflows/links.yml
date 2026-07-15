@@ -26,6 +26,7 @@ jobs:
           persist-credentials: false
       - uses: lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2 # v2.6.1
         with:
+          lycheeVersion: v0.24.2
           args: >-
             --no-progress
             --accept 200..=204,403,429
