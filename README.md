@@ -451,7 +451,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
 
 [Builderz](https://builderz.dev) ships production AI systems — 32+ products across 15 countries.
 
-[Get in touch](https://builderz.dev) | [@nyk_builderz](https://x.com/nyk_builderz)
+[Get in touch](https://builderz.dev) | [@nykdotdev](https://x.com/nykdotdev)
 
 </div>
 
