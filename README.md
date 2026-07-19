@@ -162,6 +162,7 @@ for the current controls.
 - **[beta]** [ditto](https://github.com/ohad6k/ditto) by [ohad6k](https://github.com/ohad6k) - Mines local Claude Code, Codex, and Copilot session logs into a portable user profile that Hermes can load as a skill. Runs locally and is MIT licensed.
 - **[experimental]** [code-assembly-skill](https://github.com/baoyu0/code-assembly-skill) by [baoyu0](https://github.com/baoyu0) - Search-first software assembly method for finding and composing existing tools before writing new code. Portable across Hermes, Claude Code, and Codex.
 - **[experimental]** [hermes-do-task-skill](https://github.com/baoyu0/hermes-do-task-skill) by [baoyu0](https://github.com/baoyu0) - One-command workflow that plans a task, delegates execution, verifies the result, and writes a handoff. Early project with no published release.
+- **[production]** [hermes-cursor-dispatcher](https://github.com/matdev83/hermes-cursor-dispatcher/tree/main/skills/cursor-delegate) by [matdev83](https://github.com/matdev83) - Hermes Agent skill to safely delegate coding tasks to Cursor CLI with support for Grok-4.5-xhigh and isolated Git worktrees.
 
 ### agentskills.io Ecosystem
 
