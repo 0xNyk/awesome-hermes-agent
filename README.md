@@ -111,6 +111,7 @@ for the current controls.
 
 > Core repositories and resources maintained by Nous Research.
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Autonomous AI pentesting platform (GPL-3.0) covering web, AD and Kubernetes, where the LLM never sees real IPs or credentials (local privacy gateway).
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com) - The core project. Self-improving agent with a closed learning loop, skill creation and curation, persistent memory, 20+ messaging platforms, six terminal backends (local, Docker, SSH, Singularity, Modal, and Daytona), cron scheduling, MCP integration, isolated profiles, provider routing, and automatic migration from OpenClaw. 215k+ stars.
 - [autonovel](https://github.com/NousResearch/autonovel) by [Nous Research](https://nousresearch.com) - Autonomous novel-writing pipeline built on Hermes. Generates long-form manuscripts (100k+ words) end-to-end using the agent loop.
 - [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) by [Nous Research](https://nousresearch.com) - Run Hermes as a managed employee in Paperclip companies. Connects the agent to Paperclip's task management and governance system.
