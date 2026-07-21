@@ -239,6 +239,7 @@ for the current controls.
 - **[production]** [Global Chat](https://global-chat.io) by [pumanitro](https://github.com/pumanitro) - Cross-protocol agent discovery across MCP, A2A, and agents.txt. Searchable directory of 18K+ MCP servers and agents with a free agents.txt validator and MCP server for programmatic access.
 - **[production]** [CreatorSkills](https://creatorskills.co) by [CreatorSkills](https://github.com/calebvbi) - Curated marketplace of 30+ downloadable AI skills for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Uses the open SKILL.md format; skills install into Hermes, Claude Code, ChatGPT, and 20+ compatible platforms.
 - **[production]** [TypeUI for Hermes](https://www.typeui.sh/docs/guides/hermes) by [Bergside](https://github.com/bergside/typeui) - Registry of design skills that give Hermes better context when building user interfaces. Component and style guidance sourced from an established design-system vendor. 1.4k+ stars.
+- **[beta]** [url-manager](https://github.com/Piccolo123/url-manager) by [Piccolo123](https://github.com/Piccolo123) - Agent-first URL collection & knowledge management. AI agents auto-register, collect, categorize, tag, search, and share bookmarks across devices. 16 MCP tools, cross-platform SKILL.md format (Hermes, Claude Code, Cursor, OpenClaw). Pairs naturally with Fetch/Firecrawl/Brave Search. Install: `hermes skills tap add Piccolo123/url-manager`.
 
 <br>
 
