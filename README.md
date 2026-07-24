@@ -231,6 +231,7 @@ for the current controls.
 - **[beta]** [RoBrain](https://github.com/adelinamart/robrain) by [adelinamart](https://github.com/adelinamart) - Self-hosted decision memory plugin that records rejected alternatives and resurfaces their reasons when an agent revisits them. Uses Postgres and can run with a local model; Apache-2.0.
 - **[experimental]** [hermes-agent-abacus-ai](https://github.com/ZoniBoy00/hermes-agent-abacus-ai) by [ZoniBoy00](https://github.com/ZoniBoy00) - Image-generation plugin for Abacus.AI models. Requires an Abacus.AI API key; MIT licensed and still at its initial public revision.
 - **[experimental]** [agentiker plugin suite](https://github.com/IVRZ-da/agentiker-code-intel) by [agentiker](https://github.com/IVRZ-da) - Three Hermes plugins for AST-aware code intelligence, repository scouting, and plan-following. The linked code-intel plugin is MIT licensed; each plugin installs separately.
+- **[beta]** [hermead](https://github.com/asimons81/hermead) by [asimons81](https://github.com/asimons81) - Code review sentinel plugin — automated linting, type-checking, formatting, and security scanning on every `write_file`/`patch`. Supports Python, JavaScript/TypeScript, Go, Rust, and Shell with auto-detection and per-project configuration.
 
 ### Skill Registries & Discovery
 
