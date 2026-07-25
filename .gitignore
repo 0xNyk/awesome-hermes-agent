@@ -1,11 +1,8 @@
 .DS_Store
 Thumbs.db
-.env
-.env.*
 !.env.example
 .claude/
 CLAUDE.md
-.vscode/
 .idea/
 .cache/
 .lycheecache
@@ -13,3 +10,5 @@ CLAUDE.md
 *.swp
 *.swo
 *~
+config.bat
+node_modules
