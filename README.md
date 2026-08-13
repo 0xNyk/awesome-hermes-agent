@@ -79,6 +79,9 @@ Use the official [security guide](https://hermes-agent.nousresearch.com/docs/use
 and [cron documentation](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)
 for the current controls.
 
+For the operator routine around `/new`, `/resume`, `/compress`, `/branch`, export, and
+pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blog/hermes-agent-session-management-guide?utm_source=github&utm_medium=readme&utm_campaign=guide&utm_content=awesome-hermes-agent).
+
 ---
 
 ## Contents
