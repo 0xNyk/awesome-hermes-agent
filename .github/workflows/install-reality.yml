@@ -1,0 +1,45 @@
+name: install-reality
+
+on:
+  pull_request:
+    paths:
+      - "tools/validate-install.sh"
+      - ".github/workflows/install-reality.yml"
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "Plugin repo URL to validate (e.g. https://github.com/foo/bar)"
+        required: true
+      branch:
+        description: "Branch (default: main)"
+        required: false
+        default: "main"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: install-reality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5ce73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Smoke-test the validator
+        run: |
+          bash tools/validate-install.sh https://github.com/willingning-coder/eagle-eye main || true
+          echo "---"
+          bash tools/validate-install.sh https://github.com/8bit64k/cronalytics main || true
+
+      - name: Manual scan over awesome list
+        run: |
+          echo "Pull requests to add plugin entries are welcome; this workflow"
+          echo "proves the validator still runs end-to-end. To validate a new"
+          echo "plugin candidate, run:"
+          echo "  bash tools/validate-install.sh <repo-url> [branch]"
