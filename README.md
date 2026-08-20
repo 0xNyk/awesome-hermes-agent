@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <a href="https://github.com/NousResearch/hermes-agent">
     <img src="assets/hermes-agent-banner.png" alt="Hermes Agent" width="800">
   </a>
@@ -341,6 +341,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [ai-usage-monitor](https://github.com/TurkeyGuoba/ai-usage-monitor) by [TurkeyGuoba](https://github.com/TurkeyGuoba) - Local, read-only usage monitor: cache-hit rate, tokens, and cost per provider. Reads only; sends nothing anywhere. MIT.
 - **[beta]** [agent-trust-kit](https://github.com/mauricemohr88-debug/agent-trust-kit) by [mauricemohr88-debug](https://github.com/mauricemohr88-debug) - Bounded agent handoffs: explicit file packets and evidence receipts, so what crossed a handoff boundary is auditable after the fact.
 - **[beta]** [SandBase CLI](https://github.com/sandbaseai/cli) by [sandbaseai](https://github.com/sandbaseai) - Agent-first CLI and MCP bridge across 2,000+ models, with sandboxes for multimodal generation. Apache-2.0.
+- **[production]** [MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) by [ezequiellich44-cmd](https://github.com/ezequiellich44-cmd) - Deterministic, auditable payment policy engine for autonomous AI agents. Pre-action enforcement of budgets, allowlists, denylists, rate limits, and signed mandates before any money-moving tool executes - no LLM in the decision path. Ships as an MCP server (official MCP Registry `io.github.ezequiellich44-cmd/mandateguard`). MIT.
 
 ### Deployment
 
