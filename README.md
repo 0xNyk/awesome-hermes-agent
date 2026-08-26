@@ -11,7 +11,6 @@
   ·
   <a href="assets/BRAND.md">Brand kit</a>
 </p>
-
 # Awesome Hermes Agent
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -266,6 +265,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[production]** [DashClaw](https://github.com/ucsandman/DashClaw) by [ucsandman](https://github.com/ucsandman) - Approval and policy layer for agents: intercepts risky actions before they run and blocks or escalates them by rule. MIT.
 - **[beta]** [cronwatch](https://github.com/nicokickcpython/cronwatch) by [nicokickcpython](https://github.com/nicokickcpython) - Cron health hook that alerts on any scheduled job failure, without standing up a second cron to watch the first.
 - **[experimental]** [hermes-gondola-provider](https://github.com/Gondola-Market/hermes-gondola-provider) by [Gondola Market](https://github.com/Gondola-Market) - Gondola as a native model provider: a USDC-settled model marketplace wired in through the provider interface.
+- **[stable]** [hermes-tui-distraction-free](https://github.com/vadim-a-yegorov/hermes-tui-distraction-free) by [Vadym Yehorov](https://github.com/vadim-a-yegorov) - Strips the kaomoji spinner and terminal pet from the Hermes TUI, keeps pet in GUI.
 
 ### Skill Registries & Discovery
 
