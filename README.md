@@ -340,7 +340,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [agent-qa](https://github.com/vostride/agent-qa) by [vostride](https://github.com/vostride) - Self-improving QA agent: a test harness with memory, so repeated failures inform the next run instead of restarting cold.
 - **[beta]** [ai-usage-monitor](https://github.com/TurkeyGuoba/ai-usage-monitor) by [TurkeyGuoba](https://github.com/TurkeyGuoba) - Local, read-only usage monitor: cache-hit rate, tokens, and cost per provider. Reads only; sends nothing anywhere. MIT.
 - **[beta]** [agent-trust-kit](https://github.com/mauricemohr88-debug/agent-trust-kit) by [mauricemohr88-debug](https://github.com/mauricemohr88-debug) - Bounded agent handoffs: explicit file packets and evidence receipts, so what crossed a handoff boundary is auditable after the fact.
-- **[beta]** [SandBase CLI](https://github.com/sandbaseai/cli) by [sandbaseai](https://github.com/sandbaseai) - Agent-first CLI and MCP bridge across 2,000+ models, with sandboxes for multimodal generation. Apache-2.0.
+- **[beta]** [SandBase CLI](https://github.com/sandbaseai/cli) by [sandbaseai](https://github.com/sandbaseai) - Agent-first CLI and MCP bridge across 2,000+ models. Apache-2.0.
 
 ### Deployment
 
