@@ -266,6 +266,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[production]** [DashClaw](https://github.com/ucsandman/DashClaw) by [ucsandman](https://github.com/ucsandman) - Approval and policy layer for agents: intercepts risky actions before they run and blocks or escalates them by rule. MIT.
 - **[beta]** [cronwatch](https://github.com/nicokickcpython/cronwatch) by [nicokickcpython](https://github.com/nicokickcpython) - Cron health hook that alerts on any scheduled job failure, without standing up a second cron to watch the first.
 - **[experimental]** [hermes-gondola-provider](https://github.com/Gondola-Market/hermes-gondola-provider) by [Gondola Market](https://github.com/Gondola-Market) - Gondola as a native model provider: a USDC-settled model marketplace wired in through the provider interface.
+- **[beta]** [Hermes AI Usage Monitor](https://github.com/masterlf/hermes-ai-usage) by [masterlf](https://github.com/masterlf) - Read-only provider quota and per-profile token telemetry for Hermes Desktop and Web Dashboard. Does not read prompt or response content. Apache-2.0.
 
 ### Skill Registries & Discovery
 
