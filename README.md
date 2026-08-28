@@ -403,6 +403,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [bigiron](https://github.com/supermodeltools/bigiron) by [supermodeltools](https://github.com/supermodeltools) - AI-native SDLC with Hermes and Supermodel code graph. Full software development lifecycle driven by coordinated agents.
 - **[beta]** [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) by [1ilkhamov](https://github.com/1ilkhamov) - 17 specialized agents for OpenCode AI. Each agent has a defined role and they communicate through structured interfaces.
 - **[beta]** [MisakaNet](https://github.com/Ikalus1988/MisakaNet) by [Ikalus1988](https://github.com/Ikalus1988) - Git-based distributed swarm memory. When one agent solves a problem, every node learns via shared markdown lessons synced through GitHub Issues. 104+ lessons, 21+ registered nodes. Zero infrastructure beyond GitHub.
+- **[experimental]** [hermes-conductor](https://github.com/forcewake/hermes-conductor) by [forcewake](https://github.com/forcewake) - Kanban-orchestrated multi-harness coding swarm for Hermes. Orchestrator routes and verifies; workers complete a card only with auditable evidence. MIT.
 
 <br>
 
