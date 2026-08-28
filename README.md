@@ -132,6 +132,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 
 ### Community Skills
 
+- **[beta]** [disk-guard](https://github.com/salch-cred/hermes-disk-guard) by [salch-cred](https://github.com/salch-cred) - Low-disk-space watchdog with an hourly blueprint cron. Alerts when a volume drops below a GiB floor or usage exceeds a percentage — silent while healthy, stdlib only.
 - **[beta]** [hermes-plugins](https://github.com/42-evey/hermes-plugins) by [42-evey](https://github.com/42-evey) - Plugin suite: Discord voice bridge with Gemini Live, WhatsApp bridge, goal management, inter-agent bridge, model selection, and cost control. Maintained by a frequent Hermes core contributor.
 - **[beta]** [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) by [Romanescu11](https://github.com/Romanescu11) - Meta-skill that auto-generates reusable skills from your workflows. Point it at a task you repeat and it creates a skill for it.
 - **[beta]** [litprog-skill](https://github.com/tlehman/litprog-skill) by [tlehman](https://github.com/tlehman) - Literate programming skill that works across Claude Code, OpenCode, and Hermes. Weaves code and prose into documented, executable notebooks.
