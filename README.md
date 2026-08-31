@@ -392,6 +392,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 > Skills for verifying whether incoming media is real or AI-generated — essential for agents that ingest user-submitted audio, images, video, or text.
 
 - **[beta]** [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) by [resemble-ai](https://github.com/resemble-ai) - Deepfake detection and media safety for agents. Detects AI-generated audio, images, video, and text; traces audio source (ElevenLabs, Resemble, etc.); applies invisible watermarks for provenance tracking; verifies speaker identity (Beta). Powered by [Resemble AI](https://resemble.ai). Core principle: never declare media real or fake without a completed detection result.
+- [Sketchjar/stipple-agent-skills](https://github.com/Sketchjar/stipple-agent-skills) by [Sketchjar](https://github.com/Sketchjar) - Document trust verification: forensic document authenticity (tamper risk bands + per-signal evidence on PDFs/images), AI-written-text detection with linguistic tells, citation verification, grounded extraction with abstention, identity checks, and adverse-media screening. Free anonymous tier. Same principle as Resemble: never declare a document genuine without a completed verification result.
 
 <br>
 
