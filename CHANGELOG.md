@@ -10,6 +10,7 @@ All notable changes to this curated list are documented here.
 - `assets/BRAND.md` — export + usage rules
 - `SECURITY.md` — reporting policy for a link-list repo
 - This `CHANGELOG.md`
+- Four first-party plugin listings: hermes-codex-skin, hermes-hud, hermes-artifact-relay, and hermes-openai-codex-web-search
 
 ### Changed
 
