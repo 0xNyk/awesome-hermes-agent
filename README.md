@@ -181,6 +181,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [alter](https://github.com/alter-persona/alter) by [alter-persona](https://github.com/alter-persona) - Builds a digital persona from your own writing, so an agent can draft in your voice instead of a generic one. Apache-2.0.
 - **[beta]** [shopify-app-review-brief](https://github.com/alfredtech2026/shopify-app-review-brief) by [alfredtech2026](https://github.com/alfredtech2026) - Privacy-first Shopify app review triage: source-checked worksheets an operator can audit rather than a black-box score.
 - **[experimental]** [schedulala-agent](https://github.com/schedulala/schedulala-agent) by [schedulala](https://github.com/schedulala) - Schedules and publishes social posts to 12 platforms from an agent. Holds credentials for every platform it posts to, so scope its tokens deliberately.
+- **[beta]** [dapei-skills-pack](https://github.com/shuilinh/dapei-skills-pack-en) by [shuilinh](https://github.com/shuilinh) - Quality-gate pack: spec-as-contract, no-mock rule, evidence-based acceptance. Three skills (project-skeleton / project-completeness / strict-verification) plus a shared anti-pattern & check library; bilingual EN+ZH triggers; zero-dependency SKILL.md, MIT. ZH mirror: shuilinh/dapei-skills-pack.
 
 ### agentskills.io Ecosystem
 
