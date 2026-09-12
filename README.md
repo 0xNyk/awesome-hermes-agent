@@ -38,6 +38,28 @@ project.
 
 ---
 
+## Featured
+
+<p align="center">
+  <em>Trusted by builders shipping on Hermes Agent</em>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="800">
+      <a href="SPONSORS.md">
+        <img src="https://img.shields.io/badge/Your_logo_here-Featured_listing_from_$199-blue?style=for-the-badge" alt="Featured sponsor slot available" />
+      </a>
+      <br>
+      <sub><strong>Featured sponsor</strong> · <a href="SPONSORS.md">Learn more</a> · <a href="https://buy.stripe.com/bJe14o8AT1xL9cZ8on1wY08">Get started ($199)</a></sub>
+    </td>
+  </tr>
+</table>
+
+> **Note:** Featured listings are paid advertising placements, not security endorsements. Always [check the trust boundary](#check-the-trust-boundary) before enabling community tools.
+
+---
+
 ## Where Do I Start?
 
 Three steps from zero to productive:
@@ -88,6 +110,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 
 ## Contents
 
+- [Featured](#featured)
 - [Where Do I Start?](#where-do-i-start)
 - [Check the Trust Boundary](#check-the-trust-boundary)
 - [Official Resources](#official-resources)
