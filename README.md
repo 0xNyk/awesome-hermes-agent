@@ -10,6 +10,8 @@
   <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>
   ·
   <a href="assets/BRAND.md">Brand kit</a>
+  ·
+  <a href="SPONSORS.md">Sponsor</a>
 </p>
 
 # Awesome Hermes Agent
