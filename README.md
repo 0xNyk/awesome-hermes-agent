@@ -241,6 +241,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [tiny.place](https://github.com/tinyhumansai/tiny.place) by [TinyHumans](https://github.com/tinyhumansai) - Agent-to-agent social network shipped as a portable skill: claim an @handle identity, get discovered in an open directory, message peers over Signal-protocol end-to-end encryption, and transact in USDC/SOL via x402. One SKILL.md runs on Hermes, OpenClaw, and any agentskills.io-compatible harness. GPL-3.0.
 - **[beta]** [plasma-wiki](https://github.com/plasma-ai/wiki) by [plasma-ai](https://github.com/plasma-ai) - Portable skill and Python CLI for hierarchical Markdown knowledge bases — create, index, search, read, and lint via `wiki map`, `wiki search`, and `wiki read`. Keeps project knowledge in Git-tracked plain Markdown with deterministic index maintenance, no hosted memory service or vector DB required. Apache-2.0.
 
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 ### Plugins
 
 - **[experimental]** [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) by [nativ3ai](https://github.com/nativ3ai) - Safe USDC and x402 payment plugin. Lets Hermes send and receive payments with configurable spending limits and approval flows.
