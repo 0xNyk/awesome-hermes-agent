@@ -505,6 +505,8 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **Multi-agent execution layer** — Combine Hermes core delegation with zouroboros-swarm-executors for local Claude Code/Hermes handoff, and [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) or [bigiron](https://github.com/supermodeltools/bigiron) when you need specialized agent roles.
 - **Migration + deployment hardening** — If you are moving from OpenClaw, keep [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) in the toolkit even if you prefer the native migration path. For repeatable deploys, look at [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent), [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker), and [evey-setup](https://github.com/42-evey/evey-setup) depending on how opinionated you want the stack to be.
 - **Paperclip-managed autonomous ops** — For teams that want Hermes operating inside a governed company workflow, combine [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) with Hermes cron jobs and one of the operator dashboards above. That gives you task governance, approvals, and actual operational continuity instead of a clever demo that forgets what it was doing.
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 ---
 
