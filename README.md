@@ -372,6 +372,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [ai-usage-monitor](https://github.com/TurkeyGuoba/ai-usage-monitor) by [TurkeyGuoba](https://github.com/TurkeyGuoba) - Local, read-only usage monitor: cache-hit rate, tokens, and cost per provider. Reads only; sends nothing anywhere. MIT.
 - **[beta]** [agent-trust-kit](https://github.com/mauricemohr88-debug/agent-trust-kit) by [mauricemohr88-debug](https://github.com/mauricemohr88-debug) - Bounded agent handoffs: explicit file packets and evidence receipts, so what crossed a handoff boundary is auditable after the fact.
 - **[beta]** [SandBase CLI](https://github.com/sandbaseai/cli) by [sandbaseai](https://github.com/sandbaseai) - Agent-first CLI and MCP bridge across 2,000+ models. Apache-2.0.
+- **[production]** [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) by [usenetstate](https://github.com/usenetstate) - Remote MCP for worldwide company background checks (registration, executives, courts, finances) at `https://statsnet.co/mcp`. Registry `io.github.usenetstate/statsnet`.
 
 ### Deployment
 
