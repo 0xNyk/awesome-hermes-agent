@@ -372,6 +372,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [ai-usage-monitor](https://github.com/TurkeyGuoba/ai-usage-monitor) by [TurkeyGuoba](https://github.com/TurkeyGuoba) - Local, read-only usage monitor: cache-hit rate, tokens, and cost per provider. Reads only; sends nothing anywhere. MIT.
 - **[beta]** [agent-trust-kit](https://github.com/mauricemohr88-debug/agent-trust-kit) by [mauricemohr88-debug](https://github.com/mauricemohr88-debug) - Bounded agent handoffs: explicit file packets and evidence receipts, so what crossed a handoff boundary is auditable after the fact.
 - **[beta]** [SandBase CLI](https://github.com/sandbaseai/cli) by [sandbaseai](https://github.com/sandbaseai) - Agent-first CLI and MCP bridge across 2,000+ models. Apache-2.0.
+- **[experimental]** [llama-oneclick](https://github.com/allenhan1013/llama-oneclick) by [allenhan1013](https://github.com/allenhan1013) - One-click Windows launcher for llama.cpp on dual-GPU NVIDIA rigs (e.g. RTX 4090 + RTX PRO 4500 Blackwell): auto-detects GPUs via nvidia-smi, picks CUDA/Vulkan backend, computes tensor-split ratios from VRAM, and starts llama-server in router mode with vision (mmproj) support. Dual mode splits the model across both cards; single mode pins the LLM to one card and frees the other for ComfyUI (`CUDA_VISIBLE_DEVICES=1`). Also auto-starts a local bge-small-zh embedding server on port 8099 for Mem0 semantic search. PowerShell, MIT.
 
 ### Deployment
 
