@@ -296,6 +296,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[experimental]** [hermes-gondola-provider](https://github.com/Gondola-Market/hermes-gondola-provider) by [Gondola Market](https://github.com/Gondola-Market) - Gondola as a native model provider: a USDC-settled model marketplace wired in through the provider interface.
 - **[beta]** [Hermes AI Usage Monitor](https://github.com/masterlf/hermes-ai-usage) by [masterlf](https://github.com/masterlf) - Read-only provider quota and per-profile token telemetry for Hermes Desktop and Web Dashboard. Does not read prompt or response content. Apache-2.0.
 
+- **[beta]** [hermes-agent-batch](https://github.com/raaaas/hermes-agent-batch) by [raaaas](https://github.com/raaaas) - Parallel AI task orchestrator plugin: paste a task list, phase it, dispatch one GitHub Actions agent per task on its own branch, track the resulting PRs from a Hermes desktop panel. Free-tier runners (opencode/kilo keyless) or BYOK (cline, claude-code, codex, dsh + provider keys). Official plugin catalog submission in review. End-to-end verified: dispatch -> sandboxed agent -> commit -> PR.
 ### Skill Registries & Discovery
 
 - **[beta]** [hermeshub](https://github.com/amanning3390/hermeshub) by [amanning3390](https://github.com/amanning3390) - Browse, share, and install community skills for Hermes. Community hub for skill discovery, still early but growing.
