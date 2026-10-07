@@ -24,7 +24,8 @@
 
 Hermes Agent is the open-source agent maintained by Nous Research. Awesome Hermes Agent is
 0xNyk's independent open-source directory for the optional skills, plugins, memory
-providers, surfaces, and bridges around it. This directory is not an official Nous Research
+
+- [MemTether](https://github.com/MemTether/MemTether) - **[MemTether](https://github.com/MemTether/MemTether)** — Cross-client AI memory hub with tamper-evident evidence chain, supersession chains, bi-temporal timestamps, and 23 client adapters. 334 tests. Apache-2.0.providers, surfaces, and bridges around it. This directory is not an official Nous Research
 project.
 
 <p align="center">
