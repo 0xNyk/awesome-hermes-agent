@@ -61,6 +61,7 @@ project.
 ---
 
 ## Where Do I Start?
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 Three steps from zero to productive:
 
@@ -109,6 +110,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 ---
 
 ## Contents
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 - [Featured](#featured)
 - [Where Do I Start?](#where-do-i-start)
@@ -136,6 +138,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 ---
 
 ## Official Resources
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Core repositories and resources maintained by Nous Research.
 
@@ -152,6 +155,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Skills & Plugins
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Skills are procedural memory — reusable capabilities that Hermes creates from experience and improves during use. Plugins extend core functionality.
 
@@ -339,6 +343,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Tools & Utilities
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Applications, CLIs, and utilities built on top of or alongside Hermes Agent.
 
@@ -384,6 +389,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Integrations & Bridges
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Connect Hermes to other platforms, devices, and services.
 
@@ -418,6 +424,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Detection & Media Forensics
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Skills for verifying whether incoming media is real or AI-generated — essential for agents that ingest user-submitted audio, images, video, or text.
 
@@ -426,6 +433,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Multi-Agent & Swarms
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Frameworks and tools for running multiple Hermes agents, or Hermes alongside other agents.
 
@@ -439,6 +447,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Domain Applications
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Purpose-built applications using Hermes for specific domains.
 
@@ -462,6 +471,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Forks & Derivatives
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Notable forks and derivative projects that take Hermes in new directions.
 
@@ -473,6 +483,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 <br>
 
 ## Guides & Documentation
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Tutorials, documentation, and learning resources.
 
@@ -484,6 +495,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 ---
 
 ## Operational Playbooks
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Practical workflow patterns that repeatedly help Hermes teams in production.
 
@@ -496,6 +508,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 ---
 
 ## Level-Up Blueprints
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 > Opinionated bundles for teams that want to get more out of Hermes quickly without assembling the stack from scratch.
 
@@ -509,6 +522,7 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 ---
 
 ## Contributing
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 [Recommend a new resource here!](https://github.com/0xNyk/awesome-hermes-agent/issues/new)
 
@@ -536,6 +550,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
 </div>
 
 ## License
+- [CorpusIQ Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 302+ Hermes tools, skills, MCP servers, agents, blueprints, and case studies.
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
