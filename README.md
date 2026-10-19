@@ -207,6 +207,8 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 - **[beta]** [shopify-app-review-brief](https://github.com/alfredtech2026/shopify-app-review-brief) by [alfredtech2026](https://github.com/alfredtech2026) - Privacy-first Shopify app review triage: source-checked worksheets an operator can audit rather than a black-box score.
 - **[experimental]** [schedulala-agent](https://github.com/schedulala/schedulala-agent) by [schedulala](https://github.com/schedulala) - Schedules and publishes social posts to 12 platforms from an agent. Holds credentials for every platform it posts to, so scope its tokens deliberately.
 
+- **[beta]** [levea-ai-video-editor](https://github.com/brajendrak00068/agentic-ai-video-production) by [brajendrak00068](https://github.com/brajendrak00068) - Autonomous AI video editor skill and MCP server (`levea-mcp-server`) for natural-language video editing: viral clips, 114+ animated caption templates, 9:16 vertical reframing, silence removal, B-roll, motion graphics, multicam sync, and cloud MP4 export.
+
 ### agentskills.io Ecosystem
 
 > Skills built on the [agentskills.io](https://agentskills.io) open standard — compatible across Hermes and other agent platforms.
