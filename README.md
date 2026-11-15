@@ -340,6 +340,8 @@ pruning, use the [Hermes Agent session management guide](https://www.nyk.dev/blo
 
 ## Tools & Utilities
 
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server for searching 2,200+ North American live-music venues, load-in accessibility details, drive-time routing, and booking contacts.
+
 > Applications, CLIs, and utilities built on top of or alongside Hermes Agent.
 
 - **[production]** [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) by [outsourc-e](https://github.com/outsourc-e) - Web-based workspace with chat, terminal, memory browser, skills manager, and inspector. The most complete GUI for Hermes. Built during the Nous Hackathon 2026.
